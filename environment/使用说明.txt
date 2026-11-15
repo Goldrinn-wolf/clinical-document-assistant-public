@@ -1,0 +1,49 @@
+﻿临床文书助手四合一 v1.4.1-public · 环境补全版
+2026-11-14
+
+推荐使用方法
+1. 先完整解压本压缩包，再双击“先点这里_检测并启动.cmd”。
+2. 环境已达标：会直接打开文书助手，无需安装。
+3. 提示缺少 .NET Framework 4.8：打开“03_环境组件”，运行里面的微软离线安装程序。
+   安装可能需要管理员权限；院内电脑可请信息科协助。
+   按向导完成安装，如提示重启则先重启，再点启动入口。
+
+这次补充了什么
+- 公开版程序与安装器均从通用占位模板的源码重新构建。
+- 附带从公开版源码重新构建的完整免安装成品，环境齐全后可直接使用。
+- 附带微软官方 .NET Framework 4.8 离线安装程序，适用 x86 / x64。
+- 新增启动前检查：按微软 Release 注册表数值判断是否达到 4.8，并检查主程序、子工具和共享 DLL 是否齐全。
+
+环境要求
+公开版安装程序、首页和各文书工具的配置均明确要求 .NET Framework 4.8。
+.NET Framework 4.6.2 不能满足本套件的 4.8 要求；安装 4.8 后也可运行要求较低版本 .NET Framework 4.x 的程序。
+Windows 7 需 SP1；Windows 8.1、Windows 10/11 可按其系统组件情况使用。
+Windows 8 原版不在 .NET Framework 4.8 的官方适用系统内。
+已安装 4.8 或 4.8.1 的电脑不用再装；.NET 8/9/10 等现代 .NET 与 .NET Framework 是不同产品。
+本套件使用 WPF/.NET Framework，未发现 WebView2 依赖，本包无需附加 WebView2、Python 或 Office。
+
+目录
+01_直接运行：公开版完整程序文件。
+02_公开版安装程序：由公开版源码重新构建的安装 EXE 与配套配置。
+03_环境组件：微软 .NET Framework 4.8 离线安装程序。
+04_核验与来源：原文件校验记录、下载来源、启动检查测试结果。
+
+环境达标后仍打不开
+直接运行 01_直接运行\临床文书助手四合一\ClinicalSuite.exe，记录完整错误提示及系统版本。
+若出现“需要 .NET Framework 4.8”，先检查环境安装是否实际完成以及是否需要重启。
+若出现 DLL 缺失或找不到程序，重新完整解压，并检查隔离记录。
+若显示系统版本不支持，需根据这台电脑的具体 Windows 版本处理。
+不同原因不能仅靠添加同一个组件解决。
+
+核验范围
+公开版安装载荷按新构建的 SHA256 清单逐文件核验；公开包不含私人版本安装器。
+附带的 .NET 安装程序已核验 Microsoft Corporation 数字签名有效。
+启动入口已测试：缺失/低版本 .NET、4.8 临界值、4.8.1、高版本、缺少程序文件。
+未在实际缺少环境的旧电脑上安装测试；补齐 4.8 是针对当前 Framework 报错线索的修复方案。
+
+微软官方依据
+下载：https://dotnet.microsoft.com/download/dotnet-framework/net48
+系统要求：https://learn.microsoft.com/dotnet/framework/get-started/system-requirements
+版本检查：https://learn.microsoft.com/dotnet/framework/install/how-to-determine-which-versions-are-installed
+
+公开版说明：默认人员和地点为某某主任、某某医院、某门诊；使用独立 Public 数据目录，原私人版本草稿不受影响。

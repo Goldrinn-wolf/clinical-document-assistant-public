@@ -1,0 +1,239 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<Library version="1.0.0" source="公开通用文书模板" sourcePriority="用户2026-10-14当前指令及补充回答优先">
+  <Exams>
+    <Exam id="cbc" category="basic" defaultSelected="true" title="血细胞分析+五分类" prefix="血细胞分析+五分类：" kind="standard" />
+    <Exam id="glucose" category="basic" defaultSelected="true" title="血糖" prefix="血糖：" kind="standard" />
+    <Exam id="lipids" category="basic" defaultSelected="true" title="血脂4项" prefix="血脂4项：" kind="standard" />
+    <Exam id="liver" category="basic" defaultSelected="true" title="肝功能9项" prefix="肝功能9项：" kind="standard" />
+    <Exam id="renal" category="basic" defaultSelected="true" title="肾功能常规检查（含尿酸）" prefix="肾功能常规检查（含尿酸）：" kind="standard" />
+    <Exam id="cardiac-enzymes" category="basic" defaultSelected="true" title="心肌酶三项（无AST）" prefix="心肌酶三项（无AST）：" kind="standard" />
+    <Exam id="hcy" category="basic" defaultSelected="true" title="同型半胱氨酸" prefix="同型半胱氨酸：" kind="standard" />
+    <Exam id="esr" category="special" defaultSelected="true" title="血沉" prefix="血沉：" kind="standard" />
+    <Exam id="rheumatism" category="special" defaultSelected="true" title="风湿系列" prefix="风湿系列：" kind="standard" />
+    <Exam id="anca" category="special" defaultSelected="true" title="ANCA抗中性粒细胞胞浆抗体（IIF）" prefix="ANCA抗中性粒细胞胞浆抗体（IIF）：" kind="standard" />
+    <Exam id="ana" category="special" defaultSelected="true" title="抗核抗体谱（流式荧光定量）" prefix="抗核抗体谱（流式荧光定量）：" kind="standard" />
+    <Exam id="thrombophilia" category="special" defaultSelected="true" title="易栓症筛查" prefix="易栓症筛查：" kind="standard" />
+    <Exam id="antiphospholipid" category="special" defaultSelected="true" title="抗磷脂抗体四项" prefix="抗磷脂抗体四项：" kind="standard" />
+    <Exam id="lupus-anticoagulant" category="special" defaultSelected="true" title="狼疮抗凝物检测" prefix="狼疮抗凝物检测：" kind="standard" />
+    <Exam id="lab-main" category="supplemental" title="肝肾功电解质+血脂血糖+血尿酸+HCY+心肌酶" prefix="肝肾功电解质+血脂血糖+血尿酸+HCY+心肌酶：" kind="standard" sourceParagraphs="147" />
+    <Exam id="stool" category="supplemental" title="粪便常规" prefix="粪便常规：" kind="standard" sourceParagraphs="" />
+    <Exam id="urine" category="supplemental" title="尿常规" prefix="尿常规：" kind="standard" sourceParagraphs="" />
+    <Exam id="troponin" category="supplemental" title="高敏肌钙蛋白" prefix="高敏肌钙蛋白：" kind="standard" sourceParagraphs="" />
+    <Exam id="coagulation" category="supplemental" title="凝血" prefix="凝血：" kind="standard" sourceParagraphs="" />
+    <Exam id="hepatitis-b" category="supplemental" title="乙肝" prefix="乙肝：" kind="standard" sourceParagraphs="" />
+    <Exam id="thyroid" category="supplemental" title="甲功" prefix="甲功：" kind="standard" sourceParagraphs="" />
+    <Exam id="hba1c" category="supplemental" title="糖化血红蛋白" prefix="糖化血红蛋白：" kind="standard" sourceParagraphs="" />
+    <Exam id="echo" category="other" title="心脏彩超" prefix="心脏彩超：" kind="standard" sourceParagraphs="149">
+      <Reference id="echo-r1" title="原文示例" group="">
+        <Text>心内结构未见明显异常，左室收缩功能测值正常范围，主动脉反流（少量）</Text>
+      </Reference>
+    </Exam>
+    <Exam id="holter" category="other" title="动态心电图" prefix="动态心电图：" kind="standard" sourceParagraphs="151,172">
+      <Reference id="holter-r1" title="示例1（房早/不完全右束支阻滞）" group="">
+        <Text>1.窦性心律；2.偶发房性早搏，成对房性早搏，房性早搏二联律，短阵房性心动过速；3.不完全性右束支阻滞；4.T波改变；5.心率变异正常范围。</Text>
+      </Reference>
+      <Reference id="holter-r2" title="示例2（房早/间歇一度房室阻滞）" group="">
+        <Text>1.窦性心律；2.房性早搏，偶呈二联律 偶见成对；3.短阵房性心动过速；4.间歇性一度房室阻滞；6.部分T波改变；7.心率变异性正常，SDNN为127.66ms。</Text>
+      </Reference>
+    </Exam>
+    <Exam id="scl90" category="other" title="SCL-90" prefix="SCL-90提示" kind="standard" sourceParagraphs="153">
+      <Reference id="scl90-r1" title="原文示例" group="">
+        <Text>轻度躯体化，轻度强迫状态，人际关系敏感，轻度焦虑，轻度抑郁，轻度敌对，轻度恐怖，轻度偏执，轻度精神病性，轻度其他项目。</Text>
+      </Reference>
+    </Exam>
+    <Exam id="eysenck" category="other" title="艾森克个性测验" prefix="艾森克个性测验提示" kind="standard" sourceParagraphs="155">
+      <Reference id="eysenck-r1" title="原文示例" group="">
+        <Text>被试对问题回答真实，具有较高的可信度，无明显的掩饰倾向。</Text>
+      </Reference>
+    </Exam>
+    <Exam id="mmse" category="other" title="简易智力状态检查量表" prefix="简易智力状态检查量表；" kind="standard" sourceParagraphs="157">
+      <Reference id="mmse-r1" title="原文示例" group="">
+        <Text>认知功能轻度受损，最为普通的是记忆障碍，主要表现为近事记忆和即时记忆下降，对讲过不久的话和做过的事容易遗忘。语言能力也轻度受损，讲话啰嗦，有情绪不稳，表现为易激动，抽象思维能力减退。</Text>
+      </Reference>
+    </Exam>
+    <Exam id="moca" category="other" title="蒙特利尔认知评估量表" prefix="蒙特利尔认知评估量表：" kind="standard" sourceParagraphs="158">
+      <Reference id="moca-r1" title="原文示例" group="">
+        <Text>总分19分，存在轻度认知功能减退。</Text>
+      </Reference>
+    </Exam>
+    <Exam id="vestibular" category="other" title="前庭功能" prefix="前庭功能：" kind="standard" sourceParagraphs="160">
+      <Reference id="vestibular-r1" title="原文示例" group="">
+        <Text>未见明确自发眼震；凝视、扫视、视动未见明显异常；视跟踪试验Ⅱ型；位置试验未见位置性眼震；变温试验未见明显异常。</Text>
+      </Reference>
+    </Exam>
+    <Exam id="madopar" category="other" title="美多芭负荷试验后" prefix="昨日给予美多芭负荷试验后：" kind="standard" sourceParagraphs="162">
+      <Reference id="madopar-r1" title="原文示例" group="">
+        <Text>服药前MDS统一帕金森病评定量表-III（MDS-UPDRS-III）总分27，服药60分钟后测11分，2小时后测10分，改善率＞50%</Text>
+      </Reference>
+    </Exam>
+    <Exam id="tremor" category="other" title="震颤分析" prefix="震颤分析：" kind="standard" sourceParagraphs="164">
+      <Reference id="tremor-r1" title="原文示例" group="">
+        <Text>该患者左手存在轻微静止性及姿势性震颤，6Hz左右，交替性发放为主；右手存在轻微姿势性及运动性震颤，10Hz左右，发放形式观察不佳，请结合临床。</Text>
+      </Reference>
+    </Exam>
+    <Exam id="bubble" category="other" title="发泡实验" prefix="发泡实验：" kind="standard" sourceParagraphs="166">
+      <Reference id="bubble-r1" title="原文示例" group="">
+        <Text>阴性</Text>
+      </Reference>
+    </Exam>
+    <Exam id="evoked" category="other" title="四肢体感诱发电位+脑干听觉诱发电位+视觉诱发电位" prefix="四肢体感诱发电位+脑干听觉诱发电位+视觉诱发电位：" kind="standard" sourceParagraphs="168">
+      <Reference id="evoked-r1" title="原文示例" group="">
+        <Text>大致正常。</Text>
+      </Reference>
+    </Exam>
+    <Exam id="abpm" category="other" title="动态血压" prefix="动态血压：" kind="standard" sourceParagraphs="170">
+      <Reference id="abpm-r1" title="原文示例" group="">
+        <Text>24小时血压平均值144/81mmHg，白昼血压平均150/85mmHg,夜间血压平均值132/74mmHg。全天血压负荷收缩压91.43%、舒张压88.75%。</Text>
+      </Reference>
+    </Exam>
+    <Exam id="tccd" category="other" title="TCCD" prefix="TCCD：" kind="standard" sourceParagraphs="174">
+      <Reference id="tccd-r1" title="原文示例" group="">
+        <Text>所检各动脉血流速度未见明显异常，基底动脉狭窄，双侧颈动脉内中膜不均匀增厚伴右侧斑块形成（单发），左侧椎动脉内径全程细（先天性），左椎动脉走形变异，右侧锁骨下动脉内中膜不均增厚（起始部）。</Text>
+      </Reference>
+    </Exam>
+    <Exam id="emg" category="other" title="双上肢肌电图" prefix="双上肢肌电图：" kind="standard" sourceParagraphs="176,177">
+      <Reference id="emg-r1" title="原文示例" group="">
+        <Text>1.MCV：双侧正中神经、尺神经、桡神经大致正常。2.SCV：双侧正中神经、尺神经、桡神经大致正常。3.所检左侧第一骨间背侧肌、三角肌、胫骨前肌、股直肌未见失神经电位，胫骨前肌及股直肌运动单位电位极少，第一股间背侧肌、三角肌运动单位电位波幅及时程大致正常。
+结论意见：左侧胫骨前肌及股直肌运动单位电位极少，请结合临床。</Text>
+      </Reference>
+    </Exam>
+    <Exam id="genetic" category="supplemental" title="氯吡格雷/华法林个体用药基因检测" prefix="氯吡格雷/华法林个体用药基因检测：" kind="gene" sourceParagraphs="179,180">
+      <Reference id="genetic-r1" title="氯吡格雷：正常代谢型" group="clopidogrel">
+        <Text>氯吡格雷：该患者表现型为正常代谢型；疗效可能较好，建议常规标准剂量。</Text>
+      </Reference>
+      <Reference id="genetic-r2" title="氯吡格雷：中间代谢型" group="clopidogrel">
+        <Text>氯吡格雷：该患者表现型为中间代谢型；疗效可能居中，不良心脑血管事件风险增加。可考虑增加氯吡格雷剂量，或标准剂量使用普拉格雷或替格瑞洛替代。</Text>
+      </Reference>
+      <Reference id="genetic-r3" title="华法林：快代谢 敏感型" group="warfarin">
+        <Text>华法林：该患者表现型为快代谢 敏感型；常规剂量使用华法林继发出血的风险增加，建议减少用药剂量。</Text>
+      </Reference>
+      <Reference id="genetic-r4" title="华法林：中间敏感型" group="warfarin">
+        <Text>华法林：该患者表现型为中间敏感型；常规剂量使用华法林疗效好，建议常规剂量。</Text>
+      </Reference>
+    </Exam>
+  </Exams>
+  <Modules>
+    <Module id="day2" title="入院第二天主任医师查房" pending="false" sourceParagraphs="104–107；用户当前正文">
+      <Body>入院第2天，晨查房，患者症状较前改善不著，余未诉其他新发不适，{{diet}}、{{bowel}}、{{sleep}}等一般状况可。查体：{{vitals}}。心肺腹及神经系统查体大致同前。
+辅助检查：{{EXAMS}}
+某某主任医师查房看过病人后示：{{HANDLING}}
+余可继续当前调脂固斑、改善循环、活血、营养神经、止晕、降糖、降压等综合治疗，继观。</Body>
+      <Fields>
+        <Field size="40" required="false" edit="double" options="" key="diet" label="食纳" default="食纳" />
+        <Field size="40" required="false" edit="double" options="" key="bowel" label="二便" default="二便" />
+        <Field size="40" required="false" edit="double" options="" key="sleep" label="夜休" default="夜休" />
+        <Field size="85" required="false" edit="input" options="" key="vitals" label="生命体征" default="体温:36.2℃,脉搏:65次/分,呼吸:15次/分,血压:135/68mmHg" />
+      </Fields>
+    </Module>
+    <Module id="daily" title="日常病程" pending="false" sourceParagraphs="用户当前正文">
+      <Body>晨查房，患者症状较前改善不著，余未诉其他新发不适，{{diet}}、{{bowel}}、{{sleep}}等一般状况可。查体：{{vitals}}。心肺腹及神经系统查体大致同前。
+辅助检查：{{EXAMS}}
+处理：{{HANDLING}}
+余可继续当前调脂固斑、改善循环、活血、营养神经、止晕、降糖、降压等综合治疗，继观。</Body>
+      <Fields>
+        <Field size="40" required="false" edit="double" options="" key="diet" label="食纳" default="食纳" />
+        <Field size="40" required="false" edit="double" options="" key="bowel" label="二便" default="二便" />
+        <Field size="40" required="false" edit="double" options="" key="sleep" label="夜休" default="夜休" />
+        <Field size="85" required="false" edit="input" options="" key="vitals" label="生命体征" default="体温:36.2℃,脉搏:65次/分,呼吸:15次/分,血压:135/68mmHg" />
+      </Fields>
+    </Module>
+    <Module id="chief" title="主任医师查房" pending="false" sourceParagraphs="用户当前日常正文及主任查房结构">
+      <Body>晨查房，患者症状较前改善不著，余未诉其他新发不适，{{diet}}、{{bowel}}、{{sleep}}等一般状况可。查体：{{vitals}}。心肺腹及神经系统查体大致同前。
+辅助检查：{{EXAMS}}
+{{physician}}主任医师查房看过病人后示：{{HANDLING}}
+余可继续当前调脂固斑、改善循环、活血、营养神经、止晕、降糖、降压等综合治疗，继观。</Body>
+      <Fields>
+        <Field size="40" required="false" edit="double" options="" key="diet" label="食纳" default="食纳" />
+        <Field size="40" required="false" edit="double" options="" key="bowel" label="二便" default="二便" />
+        <Field size="40" required="false" edit="double" options="" key="sleep" label="夜休" default="夜休" />
+        <Field size="85" required="false" edit="input" options="" key="vitals" label="生命体征" default="体温:36.2℃,脉搏:65次/分,呼吸:15次/分,血压:135/68mmHg" />
+        <Field size="40" required="false" edit="double" options="" key="physician" label="主任医师" default="某某" />
+      </Fields>
+    </Module>
+    <Module id="preop" title="术前小结（待整理）" pending="true" sourceParagraphs="129–131仅作为参考，不生成">
+      <Body>[待完善：术前小结模板尚未整理]</Body>
+      <Fields />
+    </Module>
+    <Module id="postop" title="术后第一天" pending="false" sourceParagraphs="134；用户当前正文">
+      <Body>术后第1天，晨查房，患者{{symptom}}症状较前好转，夜休食纳等一般状况情况可。查体：{{vitals}}。心肺腹及神经系统查体大致同前。右侧腹股沟穿刺点敷料干燥，无渗血渗液，皮下无血肿、无瘀斑及硬结，双下肢足背动脉搏动可，双下肢无水肿。处理：系{{patienttype}}患者，此次脑血管造影示{{angio}}，继续完善基底动脉高分辨、高分辨增强以及BPAS检查评估基底动脉斑块形态及侧枝情况进一步明确下一步治疗方案，余治疗大致同前，遵嘱执行。继观。</Body>
+      <Fields>
+        <Field size="40" required="true" edit="double" options="" key="symptom" label="好转症状" default="" />
+        <Field size="85" required="false" edit="input" options="" key="vitals" label="生命体征" default="血压:115/72mmHg，体温:36.4℃，脉搏:72次/分，呼吸:18次/分" />
+        <Field size="40" required="true" edit="double" options="" key="patienttype" label="患者描述" default="" />
+        <Field size="190" required="true" edit="large" options="" key="angio" label="脑血管造影结果" default="" />
+      </Fields>
+    </Module>
+    <Module id="discharge" title="出院当天" pending="false" sourceParagraphs="137">
+      <Body>目前患者诊断明确，经降糖、降压、调脂固斑、抗血小板聚集、改善微循环、营养神经等对症治疗，患者病情相对平稳，{{symptom}}症状较前好转，要求出院，经治疗组评估经后拟于{{day}}带方案出院继续治疗。</Body>
+      <Fields>
+        <Field size="40" required="true" edit="double" options="" key="symptom" label="好转症状" default="" />
+        <Field size="40" required="false" edit="double" options="今日|明日" key="day" label="出院安排" default="今日" />
+      </Fields>
+    </Module>
+    <Module id="lp" title="特殊记录：腰椎穿刺" pending="false" sourceParagraphs="143">
+      <Body>征得患者及家属同意后，在局麻下行腰椎穿刺术。患者屈颈抱膝左侧卧位，取第4/5腰椎棘突间隙为穿刺点，常规消毒铺巾，1%利多卡因穿刺点局部浸润麻醉，9号穿刺针垂直进针约5cm，落空感明显，拔除针芯，见清亮脑脊液流出，测压力{{pressure}}mmH2O，留取约7ml脑脊液，分别送常规、生化、细胞学，拔出穿刺针，消毒穿刺点，无菌敷料包扎。术程顺利，术中术后患者未诉不适。嘱患者去枕平卧6小时，多饮水。术后即刻血糖： {{glucose}}mmol/L。</Body>
+      <Fields>
+        <Field size="40" required="true" edit="input" options="" key="pressure" label="脑脊液压力（mmH2O）" default="" />
+        <Field size="40" required="true" edit="input" options="" key="glucose" label="术后即刻血糖（mmol/L）" default="" />
+      </Fields>
+    </Module>
+    <Module id="thrombolysis" title="特殊记录：溶栓" pending="false" sourceParagraphs="140">
+      <Body>入院后测血压{{bp-before}}mmHg，给予乌拉地尔12.5mg静注后测血压{{bp-after}}mmHg，溶栓前患者未诉头晕、头痛，NIHSS评分2分，征得患者家属同意并签署知情文件后，{{start}}分开始静脉溶栓，5mg阿替普酶于1分钟内静推完毕，余45mg在1小时内静滴，溶栓{{after30}}分钟右侧肢体麻木症状再次发作，NIHSS评分1分，随即完全缓解，未诉头晕、头痛，无牙龈及皮肤黏膜等出血；溶栓后{{after50}}分钟时患者出现牙龈渗血，未诉头晕、头痛，查看患者，右侧肢体麻木症状未再发作，NIHSS评分0分，向患者及家属告知继续溶栓则出血可能性大，患者及家属知情理解，{{stop}}停止溶栓。继续予脑保护、营养神经、改善微循环等治疗，24小时后复查头颅CT，密切观察病情变化。</Body>
+      <Fields>
+        <Field size="40" required="true" edit="input" options="" key="bp-before" label="入院血压（mmHg）" default="" />
+        <Field size="40" required="true" edit="input" options="" key="bp-after" label="乌拉地尔后血压（mmHg）" default="" />
+        <Field size="40" required="true" edit="input" options="" key="start" label="开始溶栓时间（HH:mm）" default="15:10" />
+        <Field size="40" required="true" edit="input" options="" key="stop" label="停止溶栓时间（HH:mm）" default="16:00" />
+        <Field size="40" required="true" edit="input" options="" key="after30" label="症状再次发作（溶栓后分钟）" default="30" />
+        <Field size="40" required="true" edit="input" options="" key="after50" label="牙龈渗血（溶栓后分钟）" default="50" />
+      </Fields>
+    </Module>
+  </Modules>
+  <References>
+    <Reference id="source-day2" title="入院第二天原文" sourceParagraphs="103–107">
+      <Text>入院第二天：
+入院第2天，晨查房，患者症状较前改善不著，余未诉其他新发不适，食纳、二便、夜休等一般状况可。查体：体温:36.2℃,脉搏:65次/分,呼吸:15次/分,血压:135/68mmHg。神经系统检查：意识清楚，言语流利，高级智能正常，颅神经查体未见明显异常，四肢肌力Ⅴ级，肌张力正常，双侧共济运动稳准，双侧腱反射对称活跃，双侧深、浅感觉及复合觉正常。病理征阴性，脑膜刺激征阴性。
+心肺腹及神经系统查体大致同前。
+辅助检查：某某主任医师查房看过病人后示：
+余可继续当前调脂固斑、改善循环、活血、营养神经、止晕、降糖、降压等综合治疗，继观。</Text>
+    </Reference>
+    <Reference id="source-preop" title="术前一天旧病例参考（未生成）" sourceParagraphs="129–131">
+      <Text>术前一天：
+患者既往右锁骨下动脉支架置入病史，既往脑血管造影示多支血管狭窄，血压、血糖长期控制不佳，向家属及患者本人告知进一步复查脑血管造影明确脑血管狭窄情况的必要性与风险，家属表示理解并签署相关知情同意书，积极完善术前准备。
+2024年10月16日经过治疗组讨论有行脑血管造影术的必要性，无绝对禁忌证，拟于2024年10月17日在局部浸润麻醉下行脑血管造影术，术中、术后注意事项：1.术中注意肝素化；2.术中操作需精细；3.术中严防斑块脱落，如再发脑梗死，则积极给予溶栓及药物治疗；4.术后严格卧床，预防穿刺部位出血或假性动脉瘤形成。注意水化、避免肾功能损害，术后注意右下肢伸直制动3+5小时，加强下肢按摩，预防下肢深静脉血栓。</Text>
+    </Reference>
+    <Reference id="source-postop-discharge" title="术后及出院当天原文" sourceParagraphs="133–137">
+      <Text>术后第一天：
+术后第1天，晨查房，患者XXX症状较前好转，夜休食纳等一般状况情况可。查体：血压:115/72mmHg，体温:36.4℃，脉搏:72次/分，呼吸:18次/分。心肺腹及神经系统查体大致同前。右侧腹股沟穿刺点敷料干燥，无渗血渗液，皮下无血肿、无瘀斑及硬结，双下肢足背动脉搏动可，双下肢无水肿。处理：系患者，此次脑血管造影示基底动脉中段重度狭窄，狭窄率约为75%，为此次发病责任血管，继续完善基底动脉高分辨、高分辨增强以及BPAS检查评估基底动脉斑块形态及侧枝情况进一步明确下一步治疗方案，余治疗大致同前，遵嘱执行。继观。
+出院当天：
+目前患者诊断明确，经降糖、降压、调脂固斑、抗血小板聚集、改善微循环、营养神经等对症治疗，患者病情相对平稳，XX症状较前好转，要求出院，经治疗组评估经后拟于明日/今日带方案出院继续治疗。</Text>
+    </Reference>
+    <Reference id="source-special" title="特殊记录原文" sourceParagraphs="139–143">
+      <Text>溶栓记录：
+入院后测血压188/98mmHg，给予乌拉地尔12.5mg静注后测血压147/84mmHg，溶栓前患者未诉头晕、头痛，NIHSS评分2分，征得患者家属同意并签署知情文件后，15:10分开始静脉溶栓，5mg阿替普酶于1分钟内静推完毕，余45mg在1小时内静滴，溶栓30分钟右侧肢体麻木症状再次发作，NIHSS评分1分，随即完全缓解，未诉头晕、头痛，无牙龈及皮肤黏膜等出血；溶栓后50分钟时患者出现牙龈渗血，未诉头晕、头痛，查看患者，右侧肢体麻木症状未再发作，NIHSS评分0分，向患者及家属告知继续溶栓则出血可能性大，患者及家属知情理解，16:00停止溶栓。继续予脑保护、营养神经、改善微循环等治疗，24小时后复查头颅CT，密切观察病情变化。
+腰椎穿刺：
+征得患者及家属同意后，在局麻下行腰椎穿刺术。患者屈颈抱膝左侧卧位，取第4/5腰椎棘突间隙为穿刺点，常规消毒铺巾，1%利多卡因穿刺点局部浸润麻醉，9号穿刺针垂直进针约5cm，落空感明显，拔除针芯，见清亮脑脊液流出，测压力XXmmH2O，留取约7ml脑脊液，分别送常规、生化、细胞学，拔出穿刺针，消毒穿刺点，无菌敷料包扎。术程顺利，术中术后患者未诉不适。嘱患者去枕平卧6小时，多饮水。术后即刻血糖： XXmmol/L。</Text>
+    </Reference>
+    <Reference id="source-exams" title="辅助检查原文" sourceParagraphs="147–180">
+      <Text>肝肾功电解质+血脂血糖+血尿酸+HCY+心肌酶
+心脏彩超：心内结构未见明显异常，左室收缩功能测值正常范围，主动脉反流（少量）
+动态心电图（2024-10-11）：1.窦性心律；2.偶发房性早搏，成对房性早搏，房性早搏二联律，短阵房性心动过速；3.不完全性右束支阻滞；4.T波改变；5.心率变异正常范围。
+SCL-90提示轻度躯体化，轻度强迫状态，人际关系敏感，轻度焦虑，轻度抑郁，轻度敌对，轻度恐怖，轻度偏执，轻度精神病性，轻度其他项目。
+艾森克个性测验提示被试对问题回答真实，具有较高的可信度，无明显的掩饰倾向。
+简易智力状态检查量表（2024-10-12）;认知功能轻度受损，最为普通的是记忆障碍，主要表现为近事记忆和即时记忆下降，对讲过不久的话和做过的事容易遗忘。语言能力也轻度受损，讲话啰嗦，有情绪不稳，表现为易激动，抽象思维能力减退。
+蒙特利尔认知评估量表（2024-10-12）：总分19分，存在轻度认知功能减退。
+前庭功能：未见明确自发眼震；凝视、扫视、视动未见明显异常；视跟踪试验Ⅱ型；位置试验未见位置性眼震；变温试验未见明显异常。
+昨日给予美多芭负荷试验后：服药前MDS统一帕金森病评定量表-III（MDS-UPDRS-III）总分27，服药60分钟后测11分，2小时后测10分，改善率＞50%
+震颤分析（2024-10-09）：该患者左手存在轻微静止性及姿势性震颤，6Hz左右，交替性发放为主；右手存在轻微姿势性及运动性震颤，10Hz左右，发放形式观察不佳，请结合临床。
+发泡实验：阴性。
+四肢体感诱发电位+脑干听觉诱发电位+视觉诱发电位：大致正常。
+动态血压（2024-10-11）：24小时血压平均值144/81mmHg，白昼血压平均150/85mmHg,夜间血压平均值132/74mmHg。全天血压负荷收缩压91.43%、舒张压88.75%。
+动态心电图：1.窦性心律；2.房性早搏，偶呈二联律 偶见成对；3.短阵房性心动过速；4.间歇性一度房室阻滞；6.部分T波改变；7.心率变异性正常，SDNN为127.66ms。
+TCCD（2024-10-09）：所检各动脉血流速度未见明显异常，基底动脉狭窄，双侧颈动脉内中膜不均匀增厚伴右侧斑块形成（单发），左侧椎动脉内径全程细（先天性），左椎动脉走形变异，右侧锁骨下动脉内中膜不均增厚（起始部）。
+双上肢肌电图（2023-03-15，我院）：1.MCV：双侧正中神经、尺神经、桡神经大致正常。2.SCV：双侧正中神经、尺神经、桡神经大致正常。3.所检左侧第一骨间背侧肌、三角肌、胫骨前肌、股直肌未见失神经电位，胫骨前肌及股直肌运动单位电位极少，第一股间背侧肌、三角肌运动单位电位波幅及时程大致正常。
+结论意见：左侧胫骨前肌及股直肌运动单位电位极少，请结合临床。
+氯吡格雷/华法林个体用药基因检测:氯吡格雷：该患者表现型为正常代谢型；疗效可能较好，建议常规标准剂量；该患者表现型为中间代谢型；疗效可能居中，不良心脑血管事件风险增加。可考虑增加氯吡格雷剂量，或标准剂量使用普拉格雷或替格瑞洛替代。
+华法林：该患者表现型为快代谢 敏感型；常规剂量使用华法林继发出血的风险增加，建议减少用药剂量。/中间敏感型；常规剂量使用华法林疗效好，建议常规剂量。</Text>
+    </Reference>
+  </References>
+</Library>

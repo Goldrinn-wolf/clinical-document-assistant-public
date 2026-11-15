@@ -1,0 +1,43 @@
+﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ Title="出院带药助手 · 公开版" Width="1280" Height="820" MinWidth="720" MinHeight="640" WindowStartupLocation="CenterScreen" Background="#F3F6F8" FontFamily="Microsoft YaHei, Segoe UI" FontSize="14" UseLayoutRounding="True">
+ <Window.Resources>
+  <Style TargetType="Button">
+   <Setter Property="Background" Value="White"/><Setter Property="Foreground" Value="#244958"/><Setter Property="BorderBrush" Value="#D7E2E7"/><Setter Property="BorderThickness" Value="1"/><Setter Property="Padding" Value="14,9"/><Setter Property="Cursor" Value="Hand"/><Setter Property="Margin" Value="4,0"/>
+   <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="Button"><Border x:Name="border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="7" Padding="{TemplateBinding Padding}"><ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/></Border><ControlTemplate.Triggers><Trigger Property="IsMouseOver" Value="True"><Setter TargetName="border" Property="Opacity" Value="0.8"/></Trigger><Trigger Property="IsEnabled" Value="False"><Setter TargetName="border" Property="Opacity" Value="0.4"/></Trigger><Trigger Property="IsKeyboardFocused" Value="True"><Setter TargetName="border" Property="BorderBrush" Value="#13847F"/><Setter TargetName="border" Property="BorderThickness" Value="2"/></Trigger></ControlTemplate.Triggers></ControlTemplate></Setter.Value></Setter>
+  </Style>
+  <Style TargetType="TextBox"><Setter Property="BorderBrush" Value="#D7E2E7"/><Setter Property="Padding" Value="10,8"/><Setter Property="Foreground" Value="#213F4A"/><Setter Property="VerticalContentAlignment" Value="Center"/></Style>
+  <Style TargetType="ListBoxItem"><Setter Property="Padding" Value="10,10"/><Setter Property="Margin" Value="0,2"/><Setter Property="HorizontalContentAlignment" Value="Stretch"/><Setter Property="Template"><Setter.Value><ControlTemplate TargetType="ListBoxItem"><Border x:Name="b" Background="Transparent" CornerRadius="6" Padding="{TemplateBinding Padding}"><ContentPresenter/></Border><ControlTemplate.Triggers><Trigger Property="IsSelected" Value="True"><Setter TargetName="b" Property="Background" Value="#DBEFEE"/><Setter Property="Foreground" Value="#08746F"/></Trigger><Trigger Property="IsMouseOver" Value="True"><Setter TargetName="b" Property="BorderBrush" Value="#A3CDC9"/><Setter TargetName="b" Property="BorderThickness" Value="1"/></Trigger></ControlTemplate.Triggers></ControlTemplate></Setter.Value></Setter></Style>
+ </Window.Resources>
+ <Grid Margin="24,18,24,16">
+  <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+  <Grid Grid.Row="0" Margin="0,0,0,18"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+   <StackPanel><TextBlock Text="离线临床文书工具" FontSize="13" Foreground="#10837D" Margin="0,0,0,6"/><TextBlock Text="出院带药助手" FontSize="26" FontWeight="Bold" Foreground="#153D49"/><TextBlock x:Name="LibraryInfo" Text="选择药物，整理成可复制的带药文本" Foreground="#68838D" Margin="0,5,0,0"/></StackPanel>
+   <WrapPanel Grid.Column="1" MaxWidth="510" VerticalAlignment="Center" HorizontalAlignment="Right"><Button x:Name="TemplateOneButton" Content="某某主任 · 模板一" Margin="4,3"/><Button x:Name="TemplateTwoButton" Content="某某主任 · 模板二" Margin="4,3"/><Button x:Name="TemplatesButton" Content="编辑默认模板" Margin="4,3"/><Button x:Name="CustomButton" Content="自定义添加" Margin="4,3"/><Button x:Name="ReviewButton" Content="待核对条目" Margin="4,3"/><Button x:Name="HelpButton" Content="使用说明" Margin="4,3"/></WrapPanel>
+  </Grid>
+  <Grid Grid.Row="1" Margin="0,0,0,16"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+   <Grid><TextBox x:Name="SearchBox" Height="42" FontSize="15" ToolTip="搜索全库：中文、全拼、首字母。例如阿司匹林 / asipilin / aspl。Ctrl+F" AutomationProperties.Name="搜索药物"/><TextBlock x:Name="SearchHint" Text="搜索药名 / 拼音 / 首字母   Ctrl+F" Foreground="#8498A0" Margin="12,0" VerticalAlignment="Center" IsHitTestVisible="False"/></Grid>
+   <CheckBox x:Name="CurrentOnly" Grid.Column="1" Content="仅当前分类" Margin="16,0,0,0" VerticalAlignment="Center" Foreground="#476771"/>
+  </Grid>
+  <Grid x:Name="Body" Grid.Row="2"><Grid.ColumnDefinitions><ColumnDefinition Width="210"/><ColumnDefinition Width="*"/><ColumnDefinition Width="14"/><ColumnDefinition Width="440"/></Grid.ColumnDefinitions><Grid.RowDefinitions><RowDefinition Height="*"/><RowDefinition Height="0"/><RowDefinition Height="0"/></Grid.RowDefinitions>
+   <Border x:Name="CategoryPanel" Grid.Column="0" Background="White" CornerRadius="10" Margin="0,0,14,0" BorderBrush="#E0E8EC" BorderThickness="1" Padding="12">
+    <DockPanel><TextBlock DockPanel.Dock="Top" Text="药物分类" FontWeight="Bold" Foreground="#254C59" Margin="6,2,0,10"/>
+     <Button x:Name="SelectedButton" DockPanel.Dock="Bottom" Content="已选 0 项 · 查看" Background="#E8F3F2" BorderThickness="0" Margin="0,12,0,0"/>
+     <ListBox x:Name="CategoryList" Background="Transparent" BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled"/>
+    </DockPanel>
+   </Border>
+   <Border x:Name="DrugPanel" Grid.Column="1" Background="White" CornerRadius="10" BorderBrush="#E0E8EC" BorderThickness="1" Padding="18,16">
+    <DockPanel><StackPanel DockPanel.Dock="Top" Margin="0,0,0,12"><TextBlock x:Name="ListTitle" Text="药物模板" FontSize="18" FontWeight="Bold" Foreground="#254C59" TextWrapping="Wrap"/><TextBlock x:Name="ResultInfo" Foreground="#728994" Margin="0,5,0,0" TextWrapping="Wrap"/></StackPanel>
+     <ScrollViewer x:Name="DrugScroll" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled"><StackPanel x:Name="DrugList"/></ScrollViewer>
+    </DockPanel>
+   </Border>
+   <Border x:Name="PreviewPanel" Grid.Column="3" Background="White" CornerRadius="10" BorderBrush="#E0E8EC" BorderThickness="1" Padding="18,16">
+    <DockPanel>
+     <Grid x:Name="PreviewHeader" DockPanel.Dock="Top" Margin="0,0,0,10"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><StackPanel><TextBlock Text="带药文本" FontSize="18" FontWeight="Bold" Foreground="#254C59"/><TextBlock x:Name="PreviewState" Text="选择药物后点击生成" Foreground="#728994" Margin="0,5,0,0" TextWrapping="Wrap"/></StackPanel><StackPanel Orientation="Horizontal" Grid.Column="1" VerticalAlignment="Top"><Button x:Name="SmallerButton" Content="A−" Padding="8,5" ToolTip="缩小预览字号"/><Button x:Name="LargerButton" Content="A+" Padding="8,5" ToolTip="增大预览字号"/></StackPanel></Grid>
+     <StackPanel x:Name="PreviewActions" DockPanel.Dock="Bottom" Margin="0,10,0,0"><TextBlock x:Name="PreviewHint" Text="生成内容可直接编辑，确认后复制或导出。" Foreground="#728994" FontSize="12" TextWrapping="Wrap" Margin="0,0,0,8"/><UniformGrid Columns="2"><Button x:Name="CopyButton" Content="复制全文" Background="#E8F3F2" BorderThickness="0" Margin="0,0,5,0"/><Button x:Name="ExportButton" Content="导出 TXT" Margin="5,0,0,0"/></UniformGrid></StackPanel>
+     <TextBox x:Name="PreviewBox" AcceptsReturn="True" AcceptsTab="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" VerticalContentAlignment="Top" FontSize="15" Background="#FAFCFD" BorderBrush="#E8EEF1" Padding="12" AutomationProperties.Name="可编辑带药文本"/>
+    </DockPanel>
+   </Border>
+  </Grid>
+  <Grid Grid.Row="3" Margin="0,16,0,0"><Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><TextBlock x:Name="StatusText" Text="离线可用 · 按原模板顺序生成" Foreground="#728994" VerticalAlignment="Center" TextWrapping="Wrap" Margin="0,0,12,0"/><StackPanel Orientation="Horizontal" Grid.Column="1"><Button x:Name="ClearButton" Content="清空草稿"/><Button x:Name="GenerateButton" Content="一键生成  Ctrl+Enter" Background="#10837D" Foreground="White" BorderThickness="0" Padding="22,12"/></StackPanel></Grid>
+ </Grid>
+</Window>

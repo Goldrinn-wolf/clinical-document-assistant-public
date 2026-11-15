@@ -1,0 +1,9 @@
+{
+  "sourceCatalog": "legacy-mobile/catalog.json",
+  "sourceApk": "legacy-mobile/discharge-assistant-1.0.0.apk",
+  "apkAsset": "assets/catalog.js",
+  "text": "复诊可预约某某医院某门诊，由某某主任接诊，具体出诊时间请以医院公布的信息为准。",
+  "catalogSha256": "cfbe106bfca89cfdad57042f29b630c7e21de26236432725ae5fe1136d1058d7",
+  "apkSha256": "cd3b74d5d022e068447ef67d262055db509e2fa70e438d85e1d8659b4641f81a",
+  "assetContainsExactText": true
+}

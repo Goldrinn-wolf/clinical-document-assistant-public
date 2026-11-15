@@ -1,0 +1,22 @@
+[
+  {
+    "module": "DischargeAssistant",
+    "exit_code": 0,
+    "passed": 33
+  },
+  {
+    "module": "InstructionsAssistant",
+    "exit_code": 0,
+    "passed": 30
+  },
+  {
+    "module": "FirstCourseAssistant",
+    "exit_code": 0,
+    "passed": 33
+  },
+  {
+    "module": "ProgressNotesAssistant",
+    "exit_code": 0,
+    "passed": 76
+  }
+]

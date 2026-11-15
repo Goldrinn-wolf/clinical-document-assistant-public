@@ -1,0 +1,734 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Library version="1.0.0" source="公开通用文书模板">
+  <Intro>复诊请提前通过某某医院官方渠道预约某门诊，某某主任的出诊时间以医院公布的信息为准。</Intro>
+  <Categories>
+    <Category id="c181" order="0" sourceParagraph="181" title="抗血小板聚集药物、脑梗死药物：出院1月后神经内科门诊复查">
+      <Drug id="d182" order="182" sourceParagraph="182" name="吲哚布芬片" pinyin="yinduobufenpian" initials="ydbfp" section="">
+        <Text>吲哚布芬片          用法：口服，一次半片（0.1g），每日2次，若无禁忌，需长期服用。</Text>
+      </Drug>
+      <Drug id="d183" order="183" sourceParagraph="183" name="阿司匹林肠溶片" pinyin="asipilinchangrongpian" initials="asplcrp" section="">
+        <Text>阿司匹林肠溶片      用法：晨空腹口服，一次1片（100mg），每日1次，若无禁忌，需长期服用。</Text>
+      </Drug>
+      <Drug id="d184" order="184" sourceParagraph="184" name="硫酸氢氯吡格雷片" pinyin="liusuanqinglvbigeleipian" initials="lsqlbglp" section="">
+        <Text>硫酸氢氯吡格雷片    用法：口服，一次1片（75mg），每日1次，若无禁忌，需服用3个月。</Text>
+      </Drug>
+      <Drug id="d185" order="185" sourceParagraph="185" name="西洛他唑片" pinyin="xiluotazuopian" initials="xltzp" section="">
+        <Text>西洛他唑片      用法：一次2片（100mg）， 2次/日，服用3月，若有明显心慌，头痛等症状，及时神内门诊复查。</Text>
+      </Drug>
+      <Drug id="d186" order="186" sourceParagraph="186" name="替格瑞洛片" pinyin="tigeruiluopian" initials="tgrlp" section="">
+        <Text>替格瑞洛片          用法：口服，一次1片（90mg），每日2次，若无禁忌，需服用3周。</Text>
+      </Drug>
+      <Note sourceParagraph="187">注：服用抗血小板药物期间注意监测全身出血倾向，严重时可能发生颅内出血、消化道出血，观察有无皮肤、眼底、牙龈出血，以及呕血、黑便、血尿等情况，若出现上述症状立即于神内门诊就诊。</Note>
+    </Category>
+    <Category id="c188" order="1" sourceParagraph="188" title="降脂、稳定斑块药物">
+      <Drug id="d189" order="189" sourceParagraph="189" name="瑞舒伐他汀钙片" pinyin="ruishufatatinggaipian" initials="rsfttgp" section="">
+        <Text>瑞舒伐他汀钙片      用法：饭后口服，一次1片（10mg），每日1次，若无禁忌，需长期服用。</Text>
+      </Drug>
+      <Drug id="d190" order="190" sourceParagraph="190" name="阿托伐他汀钙片" pinyin="atuofatatinggaipian" initials="atfttgp" section="">
+        <Text>阿托伐他汀钙片      用法：饭后口服，一次1片（20mg），每日1次，若无禁忌，需长期服用。</Text>
+      </Drug>
+      <Drug id="d191" order="191" sourceParagraph="191" name="依折麦布片" pinyin="yizhemaibupian" initials="yzmbp" section="">
+        <Text>依折麦布片          用法：饭后口服，一次1片（10mg），每日1次，根据血脂水平调整（LDL-C目标值&lt;1.4mmol/L）。</Text>
+      </Drug>
+      <Drug id="d192" order="192" sourceParagraph="192" name="依洛尤单抗注射液" pinyin="yiluoyoudankangzhusheye" initials="ylydkzsy" section="">
+        <Text>依洛尤单抗注射液    用法：皮下注射，一次1支（140mg），每2周1次，根据血脂水平调整（LDL-C目标值&lt;1.4mmol/L）。</Text>
+      </Drug>
+      <Drug id="d193" order="193" sourceParagraph="193" name="非诺贝特胶囊" pinyin="feinuobeitejiaonang" initials="fnbtjn" section="">
+        <Text>非诺贝特胶囊        用法：口服， 一次1粒（200mg），每日1次。</Text>
+      </Drug>
+      <Note sourceParagraph="194">注：注意观察有无肌肉酸痛，肌酶及转氨酶升高等情况。若出现上述症状立即于神内门诊就诊。</Note>
+    </Category>
+    <Category id="c195" order="2" sourceParagraph="195" title="改善循环用药">
+      <Drug id="d196" order="196" sourceParagraph="196" name="丁苯酞软胶囊" pinyin="dingbentairuanjiaonang" initials="dbtrjn" section="">
+        <Text>丁苯酞软胶囊        用法：口服， 一次2粒（200mg），每日3次，3周后停用，最长可用3月。</Text>
+      </Drug>
+      <Note sourceParagraph="197">注；若无禁忌，3周后停用，最长可用3月。</Note>
+    </Category>
+    <Category id="c198" order="3" sourceParagraph="198" title="房颤抗凝药物">
+      <Drug id="d199" order="199" sourceParagraph="199" name="利伐沙班" pinyin="lifashaban" initials="lfsb" section="">
+        <Text>利伐沙班            用法：口服， 一次1片（15mg），每日1次   1月后门诊复查，长期服用</Text>
+      </Drug>
+      <Drug id="d200" order="200" sourceParagraph="200" name="甲苯磺酸艾多沙班片" pinyin="jiabenhuangsuanaiduoshabanpian" initials="jbhsadsbp" section="">
+        <Text>甲苯磺酸艾多沙班片  用法：口服，一次1片（60mg），每日1次</Text>
+      </Drug>
+    </Category>
+    <Category id="c201" order="4" sourceParagraph="201" title="高血压用药">
+      <Drug id="d202" order="202" sourceParagraph="202" name="沙库巴曲缬沙坦钠片" pinyin="shakubaquxieshatannapian" initials="skbqxstnp" section="">
+        <Text>沙库巴曲缬沙坦钠片   用法：口服，一次1片（200mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d203" order="203" sourceParagraph="203" name="苯磺酸左氨氯地平片" pinyin="benhuangsuanzuoanlvdipingpian" initials="bhszaldpp" section="">
+        <Text>苯磺酸左氨氯地平片    用法：口服，一次1片（2.5mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d204" order="204" sourceParagraph="204" name="替米沙坦片" pinyin="timishatanpian" initials="tmstp" section="">
+        <Text>替米沙坦片            用法：口服，一次1片（40mg），每日2次。</Text>
+      </Drug>
+      <Drug id="d205" order="205" sourceParagraph="205" name="马来酸左氨氯地平片" pinyin="malaisuanzuoanlvdipingpian" initials="mlszaldpp" section="">
+        <Text>马来酸左氨氯地平片    用法：口服，一次1片（2.5mg），每日1次，晨服。</Text>
+      </Drug>
+      <Drug id="d206" order="206" sourceParagraph="206" name="苯磺酸氨氯地平片" pinyin="benhuangsuananlvdipingpian" initials="bhsaldpp" section="">
+        <Text>苯磺酸氨氯地平片      用法：口服，一次1片（5mg），每日1次，晨服。</Text>
+      </Drug>
+      <Drug id="d207" order="207" sourceParagraph="207" name="盐酸贝那普利片" pinyin="yansuanbeinapulipian" initials="ysbnplp" section="">
+        <Text>盐酸贝那普利片        用法：口服，一次1片（5mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d208" order="208" sourceParagraph="208" name="酒石酸美托洛尔片" pinyin="jiushisuanmeituoluoerpian" initials="jssmtlep" section="">
+        <Text>酒石酸美托洛尔片      用法：口服，一次半片（12.5mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d209" order="209" sourceParagraph="209" name="硝苯地平缓释片" pinyin="xiaobendipinghuanshipian" initials="xbdphsp" section="">
+        <Text>硝苯地平缓释片        用法：口服，一次1片（20mg），每日2次。</Text>
+      </Drug>
+      <Drug id="d210" order="210" sourceParagraph="210" name="硝苯地平控释片" pinyin="xiaobendipingkongshipian" initials="xbdpksp" section="">
+        <Text>硝苯地平控释片        用法：口服，一次1片（30mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d211" order="211" sourceParagraph="211" name="非洛地平缓释片" pinyin="feiluodipinghuanshipian" initials="fldphsp" section="">
+        <Text>非洛地平缓释片        用法：晨空腹口服，一次1片（5mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d212" order="212" sourceParagraph="212" name="坎地沙坦酯片" pinyin="kandishatanzhipian" initials="kdstzp" section="">
+        <Text>坎地沙坦酯片          用法：口服，一次1片（4mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d213" order="213" sourceParagraph="213" name="参松养心胶囊" pinyin="cansongyangxinjiaonang" initials="csyxjn" section="">
+        <Text>参松养心胶囊          用法：口服，一次3片（1.2g），每日3次。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d214" order="214" sourceParagraph="214" name="厄贝沙坦片" pinyin="ebeishatanpian" initials="ebstp" section="">
+        <Text>厄贝沙坦片           用法：口服，一次1片（75mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d215" order="215" sourceParagraph="215" name="螺内酯片" pinyin="luoneizhipian" initials="lnzp" section="">
+        <Text>螺内酯片            用法：口服，一次1片（20mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d216" order="216" sourceParagraph="216" name="呋塞米片" pinyin="fusaimipian" initials="fsmp" section="">
+        <Text>呋塞米片            用法：口服，一次1片（20mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d217" order="217" sourceParagraph="217" name="缬沙坦胶囊" pinyin="xieshatanjiaonang" initials="xstjn" section="">
+        <Text>缬沙坦胶囊         用法：口服，一次1粒（80mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d218" order="218" sourceParagraph="218" name="缬沙坦氨氯地平片" pinyin="xieshatananlvdipingpian" initials="xstaldpp" section="">
+        <Text>缬沙坦氨氯地平片   用法：口服，一次1片（80mg：5mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d219" order="219" sourceParagraph="219" name="尼可地尔片" pinyin="nikedierpian" initials="nkdep" section="">
+        <Text>尼可地尔片         用法：口服，一次1片（5mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d220" order="220" sourceParagraph="220" name="富马酸比索洛尔片" pinyin="fumasuanbisuoluoerpian" initials="fmsbslep" section="">
+        <Text>富马酸比索洛尔片   用法：口服，一次1片（2.5mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d221" order="221" sourceParagraph="221" name="盐酸拉贝洛尔片" pinyin="yansuanlabeiluoerpian" initials="yslblep" section="">
+        <Text>盐酸拉贝洛尔片     用法：口服，一次1片（50mg），每日2次。</Text>
+      </Drug>
+      <Drug id="d222" order="222" sourceParagraph="222" name="厄贝沙坦氢氯噻嗪片" pinyin="ebeishatanqinglvsaiqinpian" initials="ebstqlsqp" section="">
+        <Text>厄贝沙坦氢氯噻嗪片  用法：口服，一次1片（150mg：12.5mg），每日1次</Text>
+      </Drug>
+      <Drug id="d223" order="223" sourceParagraph="223" name="宁心宝胶囊" pinyin="ningxinbaojiaonang" initials="nxbjn" section="">
+        <Text>宁心宝胶囊         用法：口服，一次2粒（5mg），每日3次。</Text>
+      </Drug>
+      <Note sourceParagraph="224">注：监测血压，避免血压过低，控制在120-140/70-90mmHg之间。</Note>
+    </Category>
+    <Category id="c225" order="5" sourceParagraph="225" title="降糖药物">
+      <Drug id="d226" order="226" sourceParagraph="226" name="甘精胰岛素" pinyin="ganjingyidaosu" initials="gjyds" section="">
+        <Text>甘精胰岛素          用法：每晚皮下注射，每次26U，每日1次。</Text>
+      </Drug>
+      <Drug id="d227" order="227" sourceParagraph="227" name="门冬胰岛素" pinyin="mendongyidaosu" initials="mdyds" section="">
+        <Text>门冬胰岛素          用法：皮下注射，15U，三餐前。</Text>
+      </Drug>
+      <Drug id="d228" order="228" sourceParagraph="228" name="阿卡波糖片" pinyin="akabotangpian" initials="akbtp" section="">
+        <Text>阿卡波糖片          用法：餐前口服，一次1片（50mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d229" order="229" sourceParagraph="229" name="阿卡波糖胶囊" pinyin="akabotangjiaonang" initials="akbtjn" section="">
+        <Text>阿卡波糖胶囊        用法：口服，一次2粒（100mg），每日3次。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d230" order="230" sourceParagraph="230" name="格列美脲片" pinyin="geliemeiniaopian" initials="glmnp" section="">
+        <Text>格列美脲片          用法：餐前口服，一次1片（1mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d231" order="231" sourceParagraph="231" name="达格列净片" pinyin="dageliejingpian" initials="dgljp" section="">
+        <Text>达格列净片          用法：口服，一次1片（10mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d232" order="232" sourceParagraph="232" name="达格列净二甲双胍片" pinyin="dageliejingerjiashuangguapian" initials="dgljejsgp" section="">
+        <Text>达格列净二甲双胍片  用法：口服，一次1片（10mg：1000mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d233" order="233" sourceParagraph="233" name="吡格列酮二甲双胍片" pinyin="bigelietongerjiashuangguapian" initials="bgltejsgp" section="">
+        <Text>吡格列酮二甲双胍片  用法：口服，一次1片（15mg：500mg），每日3次。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d234" order="234" sourceParagraph="234" name="卡格列净片" pinyin="kageliejingpian" initials="kgljp" section="">
+        <Text>卡格列净片          用法：口服，一次1片（100mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d235" order="235" sourceParagraph="235" name="磷酸西格列汀片" pinyin="linsuanxigelietingpian" initials="lsxgltp" section="">
+        <Text>磷酸西格列汀片       用法：口服,一次1片（100mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d236" order="236" sourceParagraph="236" name="利格列汀片" pinyin="ligelietingpian" initials="lgltp" section="">
+        <Text>利格列汀片       用法：一次1片（5mg），每日1次，早餐时服用。</Text>
+      </Drug>
+      <Drug id="d237" order="237" sourceParagraph="237" name="吡格列酮二甲双胍片" pinyin="bigelietongerjiashuangguapian" initials="bgltejsgp" section="">
+        <Text>吡格列酮二甲双胍片       用法：口服，一次1片（15mg：500mg），每日2次。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d238" order="238" sourceParagraph="238" name="阿卡波糖胶囊" pinyin="akabotangjiaonang" initials="akbtjn" section="">
+        <Text>阿卡波糖胶囊        用法：口服，一次1粒（50mg），每日3次。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d239" order="239" sourceParagraph="239" name="盐酸二甲双胍缓释片" pinyin="yansuanerjiashuangguahuanshipian" initials="ysejsghsp" section="">
+        <Text>盐酸二甲双胍缓释片  用法：口服，一次1片（0.5g），每日3次。</Text>
+      </Drug>
+      <Drug id="d240" order="240" sourceParagraph="240" name="脯氨酸恒格列净片" pinyin="puansuanhenggeliejingpian" initials="pashgljp" section="">
+        <Text>脯氨酸恒格列净片   用法：早餐前口服，一次1片（10mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d241" order="241" sourceParagraph="241" name="德谷门冬双胰岛素" pinyin="degumendongshuangyidaosu" initials="dgmdsyds" section="">
+        <Text>德谷门冬双胰岛素    用法：早餐前皮下注射，17U，三餐前。</Text>
+        <Warning>原文同时出现“早餐前”与“三餐前”，给药时点需核对。</Warning>
+      </Drug>
+      <Drug id="d242" order="242" sourceParagraph="242" name="替尔泊肽注射液" pinyin="tierpotaizhusheye" initials="teptzsy" section="">
+        <Text>替尔泊肽注射液       用法：早餐前皮下注射，一次2.5mg，每周1次，4周后无不适加量至1次5mg 1次/周，早餐前皮下注射</Text>
+      </Drug>
+      <Note sourceParagraph="243">注：血糖控制目标：空腹7~8mmol/L，餐后8~10mmol/L，避免低血糖，内分泌科门诊随诊。</Note>
+    </Category>
+    <Category id="c244" order="6" sourceParagraph="244" title="活血化瘀药物">
+      <Drug id="d245" order="245" sourceParagraph="245" name="脑心通胶囊" pinyin="naoxintongjiaonang" initials="nxtjn" section="">
+        <Text>脑心通胶囊           用法：口服，一次3粒（1.2g），每日3次。</Text>
+      </Drug>
+      <Drug id="d246" order="246" sourceParagraph="246" name="消栓通络胶囊" pinyin="xiaoshuantongluojiaonang" initials="xstljn" section="">
+        <Text>消栓通络胶囊        用法：口服，一次2粒（1.08g），每日3次。</Text>
+      </Drug>
+      <Drug id="d247" order="247" sourceParagraph="247" name="蛭蛇通络胶囊" pinyin="zhishetongluojiaonang" initials="zstljn" section="">
+        <Text>蛭蛇通络胶囊        用法：口服， 一次4粒（200mg），每日3次。</Text>
+      </Drug>
+      <Note sourceParagraph="248">注：1个月后至神经内科门诊复诊。</Note>
+    </Category>
+    <Category id="c249" order="7" sourceParagraph="249" title="慢阻肺用药">
+      <Drug id="d250" order="250" sourceParagraph="250" name="沙美特罗替卡松" pinyin="shameiteluotikasong" initials="smtltks" section="">
+        <Text>沙美特罗替卡松  用法：吸入， 一次1吸（50μg：500μg），每日1次。</Text>
+      </Drug>
+    </Category>
+    <Category id="c251" order="8" sourceParagraph="251" title="降同型半胱氨酸用药">
+      <Drug id="d252" order="252" sourceParagraph="252" name="叶酸片" pinyin="yesuanpian" initials="ysp" section="">
+        <Text>叶酸片              用法：一次1片（5mg）,每日1次。</Text>
+      </Drug>
+      <Drug id="d253" order="253" sourceParagraph="253" name="甲钴胺片" pinyin="jiaguanpian" initials="jgap" section="">
+        <Text>甲钴胺片            用法：一次1片（0.5mg）,每日1次。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Note sourceParagraph="254">注：1月后复查同型半胱氨酸，若降至正常，可停药。</Note>
+    </Category>
+    <Category id="c255" order="9" sourceParagraph="255" title="贫血药物">
+      <Drug id="d256" order="256" sourceParagraph="256" name="琥珀酸亚铁片" pinyin="huposuanyatiepian" initials="hpsytp" section="">
+        <Text>琥珀酸亚铁片     用法：口服，一次1片（0.1mg）,每日1次。</Text>
+        <Warning>原文规格写为0.1mg，需核对规格及单位。</Warning>
+      </Drug>
+    </Category>
+    <Category id="c257" order="10" sourceParagraph="257" title="营养周围神经用药">
+      <Drug id="d258" order="258" sourceParagraph="258" name="维生素B1片" pinyin="weishengsub1pian" initials="wssb1p" section="">
+        <Text>维生素B1片          用法:口服,一次1片（10mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d259" order="259" sourceParagraph="259" name="甲钴胺片" pinyin="jiaguanpian" initials="jgap" section="">
+        <Text>甲钴胺片            用法：口服，一次1片（0.5mg），每日3次。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d260" order="260" sourceParagraph="260" name="胞磷胆碱钠片" pinyin="baolindanjiannapian" initials="bldjnp" section="">
+        <Text>胞磷胆碱钠片        用法：口服，一次1片（200mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d261" order="261" sourceParagraph="261" name="迈之灵片" pinyin="maizhilingpian" initials="mzlp" section="">
+        <Text>迈之灵片            用法：一次1片（150mg），每日2次 。</Text>
+      </Drug>
+      <Note sourceParagraph="262">注：若无禁忌，需长期服用。</Note>
+    </Category>
+    <Category id="c263" order="11" sourceParagraph="263" title="针对带状疱疹病毒药物">
+      <Drug id="d264" order="264" sourceParagraph="264" name="盐酸伐昔洛韦片" pinyin="yansuanfaxiluoweipian" initials="ysfxlwp" section="">
+        <Text>盐酸伐昔洛韦片    用法：口服，一次1片（0.3g），一日2次，饭前空腹服用。出院后继续抗病毒治疗满14天后停用。</Text>
+      </Drug>
+      <Drug id="d265" order="265" sourceParagraph="265" name="普瑞巴林胶囊" pinyin="puruibalinjiaonang" initials="prbljn" section="">
+        <Text>普瑞巴林胶囊      用法：口服，一次1粒（75mg），每日2次，疼痛改善后可停药，若无法改善，必要时可加量至每次150 mg，每日2次。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d266" order="266" sourceParagraph="266" name="胸腺肽肠溶片" pinyin="xiongxiantaichangrongpian" initials="xxtcrp" section="">
+        <Text>胸腺肽肠溶片      服法:口服,一次1片，每日3次。</Text>
+      </Drug>
+      <Drug id="d267" order="267" sourceParagraph="267" name="更昔洛韦眼用凝胶" pinyin="gengxiluoweiyanyongningjiao" initials="gxlwyynj" section="">
+        <Text>更昔洛韦眼用凝胶  用法：外用，局部涂抹，每日2次。</Text>
+      </Drug>
+      <Drug id="d268" order="268" sourceParagraph="268" name="干扰素凝胶" pinyin="ganraosuningjiao" initials="grsnj" section="">
+        <Text>干扰素凝胶        用法：外用涂抹，每日4次。</Text>
+      </Drug>
+      <Note sourceParagraph="269">注：示症状改善后可逐渐停用。</Note>
+    </Category>
+    <Category id="c270" order="12" sourceParagraph="270" title="止晕药">
+      <Drug id="d271" order="271" sourceParagraph="271" name="长春胺缓释胶囊" pinyin="changchunanhuanshijiaonang" initials="ccahsjn" section="">
+        <Text>长春胺缓释胶囊    用法：口服，一次1粒（30mg），每日2次。</Text>
+      </Drug>
+      <Drug id="d272" order="272" sourceParagraph="272" name="甲磺酸倍他司汀片" pinyin="jiahuangsuanbeitasitingpian" initials="jhsbtstp" section="">
+        <Text>甲磺酸倍他司汀片  用法：口服，一次1片（6mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d273" order="273" sourceParagraph="273" name="强力定眩片" pinyin="qianglidingxuanpian" initials="qldxp" section="">
+        <Text>强力定眩片        用法：口服，一次4片（1.4g） ，每日3次。</Text>
+      </Drug>
+      <Drug id="d274" order="274" sourceParagraph="274" name="尼麦角林片" pinyin="nimaijiaolinpian" initials="nmjlp" section="">
+        <Text>尼麦角林片         用法：口服，一次1片（10mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d275" order="275" sourceParagraph="275" name="盐酸倍他司汀片" pinyin="yansuanbeitasitingpian" initials="ysbtstp" section="">
+        <Text>盐酸倍他司汀片     用法：口服，一次1片（4mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d276" order="276" sourceParagraph="276" name="银杏蜜环口服液口服液" pinyin="yinxingmihuankoufuyekoufuye" initials="yxmhkfykfy" section="">
+        <Text>银杏蜜环口服液口服液 用法：一次1支（10ml），每日1次</Text>
+        <Warning>原文药名含重复的“口服液”，需核对。</Warning>
+      </Drug>
+      <Note sourceParagraph="277">注：头晕症状改善后可停药。</Note>
+    </Category>
+    <Category id="c278" order="13" sourceParagraph="278" title="头痛用药">
+      <Drug id="d279" order="279" sourceParagraph="279" name="头痛宁胶囊" pinyin="toutongningjiaonang" initials="ttnjn" section="">
+        <Text>头痛宁胶囊                用法：口服，一次3粒（1.2g），头痛时服用。</Text>
+      </Drug>
+      <Drug id="d280" order="280" sourceParagraph="280" name="盐酸氟桂利嗪胶囊(西比灵)" pinyin="yansuanfuguiliqinjiaonang(xibiling)" initials="ysfglqjn(xbl)" section="">
+        <Text>盐酸氟桂利嗪胶囊(西比灵)  用法：口服，一次1粒（5mg），头痛时服用。副作用：抑郁、震颤</Text>
+      </Drug>
+      <Drug id="d281" order="281" sourceParagraph="281" name="通天口服液" pinyin="tongtiankoufuye" initials="ttkfy" section="">
+        <Text>通天口服液           用法：口服，一次1支，每日2次。</Text>
+      </Drug>
+      <Drug id="d282" order="282" sourceParagraph="282" name="苯磺酸克利加巴林胶囊" pinyin="benhuangsuankelijiabalinjiaonang" initials="bhskljbljn" section="">
+        <Text>苯磺酸克利加巴林胶囊 用法：口服，一次1粒（20mg），每日2次。必要时可增加至一次2粒（40mg），每日2次。</Text>
+      </Drug>
+    </Category>
+    <Category id="c283" order="14" sourceParagraph="283" title="改善认知功能">
+      <Drug id="d284" order="284" sourceParagraph="284" name="艾地苯醌片" pinyin="aidibenkunpian" initials="adbkp" section="">
+        <Text>艾地苯醌片          用法：口服，一次1片（30mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d285" order="285" sourceParagraph="285" name="盐酸多奈哌齐片" pinyin="yansuanduonaipaiqipian" initials="ysdnpqp" section="">
+        <Text>盐酸多奈哌齐片      用法：口服，一次1片（5mg），每日1次。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d286" order="286" sourceParagraph="286" name="盐酸刚片" pinyin="yansuangangpian" initials="ysgp" section="">
+        <Text>盐酸刚片    用法：口服，一次1片（5mg），每日1次   若无不适，长期服药。</Text>
+        <Warning>原文药名为“盐酸刚片”，疑有缺字，需核对。</Warning>
+      </Drug>
+      <Note sourceParagraph="287">注：若无禁忌，可长期服用。</Note>
+      <Drug id="d288" order="288" sourceParagraph="288" name="盐酸多奈哌齐片" pinyin="yansuanduonaipaiqipian" initials="ysdnpqp" section="">
+        <Text>盐酸多奈哌齐片  用法：口服，一次1片（5mg），每日1次 ，若无恶心、腹泻、睡眠障碍、心动过缓等副作用，1个月后改为 一次2片（10mg），每日1次，定期复查心电图，需长期服药。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d289" order="289" sourceParagraph="289" name="盐酸美金刚片" pinyin="yansuanmeijingangpian" initials="ysmjgp" section="">
+        <Text>盐酸美金刚片  用法：口服，第1周：一次半片（5mg），每日1次；第2周：一次1片（10mg），每日1次；第3周：一次1片半（15mg），每日1次，第4周，一次2片（20mg），每日1次，长期维持；</Text>
+      </Drug>
+    </Category>
+    <Category id="c290" order="15" sourceParagraph="290" title="冠心病用药">
+      <Drug id="d291" order="291" sourceParagraph="291" name="单硝酸异山梨酯片" pinyin="danxiaosuanyishanlizhipian" initials="dxsyslzp" section="">
+        <Text>单硝酸异山梨酯片   用法：口服，一次1片（20mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d292" order="292" sourceParagraph="292" name="盐酸地尔硫卓片" pinyin="yansuandierliuzhuopian" initials="ysdelzp" section="">
+        <Text>盐酸地尔硫卓片     用法：口服，一次1片（30mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d293" order="293" sourceParagraph="293" name="地奥心血康软胶囊" pinyin="diaoxinxuekangruanjiaonang" initials="daxxkrjn" section="">
+        <Text>地奥心血康软胶囊  用法：口服，一次2粒（0.7g），每日3次。</Text>
+      </Drug>
+      <Drug id="d294" order="294" sourceParagraph="294" name="冠心舒通胶囊" pinyin="guanxinshutongjiaonang" initials="gxstjn" section="">
+        <Text>冠心舒通胶囊      用法：口服，一次3粒（0.9g），每日3次。</Text>
+      </Drug>
+      <Drug id="d295" order="295" sourceParagraph="295" name="参松养心胶囊" pinyin="cansongyangxinjiaonang" initials="csyxjn" section="">
+        <Text>参松养心胶囊      用法：口服，一次2粒（0.8g），每日2次。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+    </Category>
+    <Category id="c296" order="16" sourceParagraph="296" title="改善运动症状用药">
+      <Drug id="d297" order="297" sourceParagraph="297" name="多巴丝肼片" pinyin="duobasijingpian" initials="dbsjp" section="">
+        <Text>多巴丝肼片            用法：餐前1小时或餐后1.5小时口服，一次半片（125mg），每日2次。</Text>
+      </Drug>
+      <Drug id="d298" order="298" sourceParagraph="298" name="盐酸普拉克索片" pinyin="yansuanpulakesuopian" initials="ysplksp" section="">
+        <Text>盐酸普拉克索片       用法：口服,一次1片（0.25mg），每日3次</Text>
+      </Drug>
+      <Drug id="d299" order="299" sourceParagraph="299" name="巴氯芬片" pinyin="balvfenpian" initials="blfp" section="">
+        <Text>巴氯芬片             用法：口服，一次半片（5mg），每日2次</Text>
+      </Drug>
+      <Drug id="d300" order="300" sourceParagraph="300" name="甲磺酸雷沙吉兰片" pinyin="jiahuangsuanleishajilanpian" initials="jhslsjlp" section="">
+        <Text>甲磺酸雷沙吉兰片     用法：口服， 一次1片（1mg）      1次/天     定期复查，长期服用</Text>
+      </Drug>
+      <Note sourceParagraph="301">注：不可随意增减药物，若无禁忌，需长期服用。若双手震颤、行走缓慢等症状较前明显加重，立即于神经内科门诊随诊。</Note>
+    </Category>
+    <Category id="c302" order="17" sourceParagraph="302" title="改善神经痛症状">
+      <Drug id="d303" order="303" sourceParagraph="303" name="奥卡西平片" pinyin="aokaxipingpian" initials="akxpp" section="">
+        <Text>奥卡西平片          用法：口服， 一次1片（150mg）   2次/天</Text>
+      </Drug>
+      <Drug id="d304" order="304" sourceParagraph="304" name="普瑞巴林口服液" pinyin="puruibalinkoufuye" initials="prblkfy" section="">
+        <Text>普瑞巴林口服液      用法：口服， 一次3.75ml         1次/天</Text>
+      </Drug>
+      <Drug id="d305" order="305" sourceParagraph="305" name="普瑞巴林胶囊" pinyin="puruibalinjiaonang" initials="prbljn" section="">
+        <Text>普瑞巴林胶囊        用法：口服， 一次1粒（75mg）   2次/天</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+    </Category>
+    <Category id="c306" order="18" sourceParagraph="306" title="升压治疗">
+      <Drug id="d307" order="307" sourceParagraph="307" name="生脉饮" pinyin="shengmaiyin" initials="smy" section="">
+        <Text>生脉饮              用法：口服，一次1支（10ml），每日3次。</Text>
+      </Drug>
+      <Note sourceParagraph="308">注：维持血压在100-140/60-90mmHg之间，心率控制在60次/分左右</Note>
+    </Category>
+    <Category id="c309" order="19" sourceParagraph="309" title="激素及预防激素并发症药物">
+      <Drug id="d310" order="310" sourceParagraph="310" name="醋酸泼尼松片" pinyin="cusuanponisongpian" initials="cspnsp" section="">
+        <Text>醋酸泼尼松片            用法： 晨起口服，一次6片（30mg），每日1次。隔1周后减为5片，每隔1周减1片，1月后门诊复诊。</Text>
+      </Drug>
+      <Drug id="d311" order="311" sourceParagraph="311" name="氯化钾缓释片" pinyin="lvhuajiahuanshipian" initials="lhjhsp" section="">
+        <Text>氯化钾缓释片             用法：饭后口服，一次1片（0.5mg），每日2次。</Text>
+        <Warning>原文规格写为0.5mg，需核对规格及单位。</Warning>
+      </Drug>
+      <Drug id="d312" order="312" sourceParagraph="312" name="碳酸钙D3片" pinyin="tansuangaid3pian" initials="tsgd3p" section="">
+        <Text>碳酸钙D3片              用法：饭后口服，一次1片（600mg），每日2次。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d313" order="313" sourceParagraph="313" name="泮托拉唑钠肠溶片" pinyin="pantuolazuonachangrongpian" initials="ptlzncrp" section="">
+        <Text>泮托拉唑钠肠溶片         用法：饭后口服，一次1片（40mg），每日1次。</Text>
+      </Drug>
+    </Category>
+    <Category id="c314" order="20" sourceParagraph="314" title="抗病毒用药、化痰药物">
+      <Drug id="d315" order="315" sourceParagraph="315" name="抗病毒糖浆" pinyin="kangbingdutangjiang" initials="kbdtj" section="">
+        <Text>抗病毒糖浆          用法：口服，一次30ml，每日3次。</Text>
+      </Drug>
+      <Drug id="d316" order="316" sourceParagraph="316" name="盐酸氨溴索分散片" pinyin="yansuananxiusuofensanpian" initials="ysaxsfsp" section="">
+        <Text>盐酸氨溴索分散片  用法：口服，一次1片（30mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d317" order="317" sourceParagraph="317" name="乙酰半胱氨酸片" pinyin="yixianbanguangansuanpian" initials="yxbgasp" section="">
+        <Text>乙酰半胱氨酸片    用法：口服，一次1片（0.6g），每日2次。</Text>
+      </Drug>
+      <Drug id="d318" order="318" sourceParagraph="318" name="桉柠蒎肠溶胶囊" pinyin="anningpaichangrongjiaonang" initials="anpcrjn" section="">
+        <Text>桉柠蒎肠溶胶囊   用法：口服，一次1粒（0.3g），每日2次，餐前半小时口服。</Text>
+      </Drug>
+      <Drug id="d319" order="319" sourceParagraph="319" name="头孢地尼分散片" pinyin="toubaodinifensanpian" initials="tbdnfsp" section="">
+        <Text>头孢地尼分散片   用法：口服，一次2片（100mg），每日3次。</Text>
+      </Drug>
+      <Note sourceParagraph="320">注：咳嗽症状改善后可停药，若症状持续不缓解，呼吸内科门诊随诊。</Note>
+    </Category>
+    <Category id="c321" order="21" sourceParagraph="321" title="改善肾功药物">
+      <Drug id="d322" order="322" sourceParagraph="322" name="尿毒清颗粒" pinyin="niaoduqingkeli" initials="ndqkl" section="">
+        <Text>尿毒清颗粒          用法:冲服,一次1袋（5g），每日3次。</Text>
+      </Drug>
+      <Drug id="d323" order="323" sourceParagraph="323" name="百令片" pinyin="bailingpian" initials="blp" section="">
+        <Text>百令片            用法：口服，一次6片（2.64g），每日3次。</Text>
+      </Drug>
+      <Drug id="d324" order="324" sourceParagraph="324" name="金水宝片" pinyin="jinshuibaopian" initials="jsbp" section="">
+        <Text>金水宝片            用法：口服，一次3片（1.26g），每日3次。</Text>
+      </Drug>
+      <Note sourceParagraph="325">注：定期复查肾功能、电解质、肾早损及肾脏超声，肾内科门诊随诊。</Note>
+    </Category>
+    <Category id="c326" order="22" sourceParagraph="326" title="保肝用药">
+      <Drug id="d327" order="327" sourceParagraph="327" name="双环醇片" pinyin="shuanghuanchunpian" initials="shcp" section="">
+        <Text>双环醇片   用法：口服，一次1片（25mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d328" order="328" sourceParagraph="328" name="甘草酸二胺胶囊" pinyin="gancaosuaneranjiaonang" initials="gcseajn" section="">
+        <Text>甘草酸二胺胶囊 用法：口服，一次3粒（150mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d329" order="329" sourceParagraph="329" name="谷胱甘肽片" pinyin="guguanggantaipian" initials="gggtp" section="">
+        <Text>谷胱甘肽片 用法：口服，一次4片（400mg），每日3次。</Text>
+      </Drug>
+      <Note sourceParagraph="330">注：2周后复查肝功，若肝功正常，可停药。</Note>
+    </Category>
+    <Category id="c331" order="23" sourceParagraph="331" title="甲状腺术后用药">
+      <Drug id="d332" order="332" sourceParagraph="332" name="左甲状腺素钠片" pinyin="zuojiazhuangxiansunapian" initials="zjzxsnp" section="">
+        <Text>左甲状腺素钠片  用法：口服，一次1.25片（62.5μg），每日一次。早餐前口服，早餐前避免服用高蛋白饮食</Text>
+      </Drug>
+      <Note sourceParagraph="333">注：1-2月后复查甲功，半年后复查甲状腺彩超，必要时进一步调整优甲乐用量，内分泌科门诊随诊。</Note>
+    </Category>
+    <Category id="c334" order="24" sourceParagraph="334" title="改善慢性胃炎用药">
+      <Drug id="d335" order="335" sourceParagraph="335" name="富马酸伏诺拉生片" pinyin="fumasuanfunuolashengpian" initials="fmsfnlsp" section="">
+        <Text>富马酸伏诺拉生片       用法：口服，一次1片（20mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d336" order="336" sourceParagraph="336" name="艽龙胶囊" pinyin="jiaolongjiaonang" initials="jljn" section="">
+        <Text>艽龙胶囊               用法：口服，一次2粒（160mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d337" order="337" sourceParagraph="337" name="酒石酸西尼必利片" pinyin="jiushisuanxinibilipian" initials="jssxnblp" section="">
+        <Text>酒石酸西尼必利片       用法：口服，一次1片（1mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d338" order="338" sourceParagraph="338" name="枳术宽中胶囊" pinyin="zhishukuanzhongjiaonang" initials="zskzjn" section="">
+        <Text>枳术宽中胶囊           用法：口服，一次1粒（0.43g），每日3次。</Text>
+      </Drug>
+      <Drug id="d339" order="339" sourceParagraph="339" name="枯草杆菌二联活菌肠溶胶囊" pinyin="kucaoganjunerlianhuojunchangrongjiaonang" initials="kcgjelhjcrjn" section="">
+        <Text>枯草杆菌二联活菌肠溶胶囊 用法：口服，一次1粒（250mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d340" order="340" sourceParagraph="340" name="胰酶肠溶胶囊" pinyin="yimeichangrongjiaonang" initials="ymcrjn" section="">
+        <Text>胰酶肠溶胶囊            用法：口服，一次1粒（0.3g），每日3次，餐中服用。</Text>
+      </Drug>
+      <Note sourceParagraph="341">注：1个月后至消化内科门诊复诊调整用药。</Note>
+    </Category>
+    <Category id="c342" order="25" sourceParagraph="342" title="便秘用药">
+      <Drug id="d343" order="343" sourceParagraph="343" name="滋阴润肠口服液" pinyin="ziyinrunchangkoufuye" initials="zyrckfy" section="">
+        <Text>滋阴润肠口服液        用法：口服,一次10ml，每日2次。</Text>
+      </Drug>
+      <Drug id="d344" order="344" sourceParagraph="344" name="厚朴排气合剂" pinyin="houpopaiqiheji" initials="hppqhj" section="">
+        <Text>厚朴排气合剂         用法：口服,一次25ml，便秘时使用</Text>
+      </Drug>
+      <Drug id="d345" order="345" sourceParagraph="345" name="乳果糖口服溶液" pinyin="ruguotangkoufurongye" initials="rgtkfry" section="">
+        <Text>乳果糖口服溶液        用法：口服，一次15ml，每日1次。</Text>
+      </Drug>
+      <Drug id="d346" order="346" sourceParagraph="346" name="聚卡波非钙片" pinyin="jukabofeigaipian" initials="jkbfgp" section="">
+        <Text>聚卡波非钙片          用法：口服,一次2片（1g），每日3次。</Text>
+      </Drug>
+      <Drug id="d347" order="347" sourceParagraph="347" name="芦比前列酮软胶囊" pinyin="lubiqianlietongruanjiaonang" initials="lbqltrjn" section="">
+        <Text>芦比前列酮软胶囊      用法：口服,一次1粒（24μg），每日2次。</Text>
+      </Drug>
+      <Note sourceParagraph="348">注：1周内于神经内科门诊复查粪常规，转阴后可继续服用阿司匹林肠溶片。若便秘症状改善，可暂停</Note>
+    </Category>
+    <Category id="c349" order="26" sourceParagraph="349" title="针对肌萎缩侧索硬化">
+      <Drug id="d350" order="350" sourceParagraph="350" name="利鲁唑" pinyin="liluzuo" initials="llz" section="">
+        <Text>利鲁唑  口服 50mg/次 2次/日（动态复查肝功能，若已使用有创呼吸机治疗时，不建议继续服用）；</Text>
+      </Drug>
+      <Drug id="d351" order="351" sourceParagraph="351" name="依达拉奉注射液" pinyin="yidalafengzhusheye" initials="ydlfzsy" section="">
+        <Text>依达拉奉注射液治疗（100ml生理盐水+依达拉奉60mg 每日1次 60分钟内静滴 给药期与停药期组合28天为1个周期，共6个周期：第1周期连续给药14天，停药14天；第2周期起14天内给药10天（5天/周）；之后停药14天，以此重复（第2-6周期）。）</Text>
+      </Drug>
+    </Category>
+    <Category id="c352" order="27" sourceParagraph="352" title="针对肝豆状核变性">
+      <Drug id="d353" order="353" sourceParagraph="353" name="青霉胺片" pinyin="qingmeianpian" initials="qmap" section="">
+        <Text>青霉胺片     用法：口服，一次1片（0.125mg），每日1次，若无明显发热、过敏等不适，1周后改为一次1片（0.125mg），每日2次，之后每1周增加1片，加至一次2片（0.25g），每日3次维持。</Text>
+        <Warning>原文同时出现0.125mg及0.25g，需核对规格及单位。</Warning>
+      </Drug>
+      <Drug id="d354" order="354" sourceParagraph="354" name="葡萄糖酸锌" pinyin="putaotangsuanxin" initials="pttsx" section="">
+        <Text>葡萄糖酸锌   用法：口服，一次70mg，每日3次</Text>
+      </Drug>
+      <Drug id="d355" order="355" sourceParagraph="355" name="维生素B6片" pinyin="weishengsub6pian" initials="wssb6p" section="">
+        <Text>维生素B6片   用法：口服，一次1片（10mg），每日1次</Text>
+      </Drug>
+    </Category>
+    <Category id="c356" order="28" sourceParagraph="356" title="改善膝关节疼痛">
+      <Drug id="d357" order="357" sourceParagraph="357" name="塞来昔布胶囊" pinyin="sailaixibujiaonang" initials="slxbjn" section="">
+        <Text>塞来昔布胶囊        用法：口服，一次1粒（200mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d358" order="358" sourceParagraph="358" name="硫酸氨基葡萄糖胶囊" pinyin="liusuananjiputaotangjiaonang" initials="lsajpttjn" section="">
+        <Text>硫酸氨基葡萄糖胶囊  用法：口服，一次2粒（500mg），每日3次。</Text>
+      </Drug>
+      <Drug id="d359" order="359" sourceParagraph="359" name="氟比洛芬凝胶贴膏" pinyin="fubiluofenningjiaotiegao" initials="fblfnjtg" section="">
+        <Text>氟比洛芬凝胶贴膏   用法：外用，一次1贴（40mg），每日2次。</Text>
+      </Drug>
+      <Drug id="d360" order="360" sourceParagraph="360" name="消痛贴膏" pinyin="xiaotongtiegao" initials="xttg" section="">
+        <Text>消痛贴膏 一次1贴 外用</Text>
+      </Drug>
+      <Drug id="d361" order="361" sourceParagraph="361" name="盐酸氨基葡萄糖胶囊" pinyin="yansuananjiputaotangjiaonang" initials="ysajpttjn" section="">
+        <Text>盐酸氨基葡萄糖胶囊 用法：口服，一次1粒（0.75g），每日2次，吃饭时或饭后服用。</Text>
+      </Drug>
+      <Drug id="d362" order="362" sourceParagraph="362" name="阿法骨化醇片" pinyin="afaguhuachunpian" initials="afghcp" section="">
+        <Text>阿法骨化醇片  用法：口服，口服，一次1片（0.25ug），每日1次。</Text>
+      </Drug>
+      <Note sourceParagraph="363">注：症状改善后可停药，避免负重，减少上下楼等动作，骨科门诊随诊。</Note>
+    </Category>
+    <Category id="c364" order="29" sourceParagraph="364" title="调节心情、改善睡眠药物">
+      <Section sourceParagraph="365">抗抑郁药物：如SSRIs类、SNRIs类：</Section>
+      <Drug id="d366" order="366" sourceParagraph="366" name="草酸艾司西酞普兰片" pinyin="caosuanaisixitaipulanpian" initials="csasxtplp" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>草酸艾司西酞普兰片 用法：早餐后1次，半片（5mg）起始，每5天加半片（5mg），至一次2片（20mg）维持。</Text>
+      </Drug>
+      <Drug id="d367" order="367" sourceParagraph="367" name="右佐匹克隆片" pinyin="youzuopikelongpian" initials="yzpklp" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>右佐匹克隆片       用法：晚睡前1-2mg，改善睡眠，4周后逐渐减量停药。</Text>
+      </Drug>
+      <Drug id="d368" order="368" sourceParagraph="368" name="盐酸帕罗西汀片" pinyin="yansuanpaluoxitingpian" initials="ysplxtp" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>盐酸帕罗西汀片  用法：口服, 10mg/日起始，每周加10mg，直至40mg/日维持（固定于某一顿饭后，维持3-6个月以上），最多（60mg）。</Text>
+        <Note sourceParagraph="369">不良反应：便秘，备孕禁用（D级），体重增加（可逆），肺动脉高压，QT间期延长</Note>
+      </Drug>
+      <Drug id="d370" order="370" sourceParagraph="370" name="盐酸舍曲林片" pinyin="yansuanshequlinpian" initials="yssqlp" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>盐酸舍曲林片   用法：早餐后口服，一次半片（25mg），每日1次，每3-5天后加半片，直至3片（150mg）维持。（乐元国产3片维持，左乐福进口2片维持）。</Text>
+        <Note sourceParagraph="371">副作用：食欲下降和体重减少，腹泻，手抖，抗凝作用（血小板低不能用），多汗。</Note>
+      </Drug>
+      <Drug id="d372" order="372" sourceParagraph="372" name="氟哌噻吨美利曲辛片(黛力新)" pinyin="fupaisaidunmeiliquxinpian(dailixin)" initials="fpsdmlqxp(dlx)" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>氟哌噻吨美利曲辛片(黛力新) 用法：口服，一次1片（0.5mg），每日2次，早中各一次。</Text>
+        <Note sourceParagraph="373">禁忌：闭角型青光眼，副作用：易出现迟发性运动障碍</Note>
+      </Drug>
+      <Drug id="d374" order="374" sourceParagraph="374" name="盐酸曲唑酮片" pinyin="yansuanquzuotongpian" initials="ysqztp" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>盐酸曲唑酮片       用法：口服，一次半片（25mg），晚睡前服用，睡眠仍差可逐渐加量至50mg/日（维持3-6个月以上）。</Text>
+      </Drug>
+      <Drug id="d375" order="375" sourceParagraph="375" name="劳拉西泮片" pinyin="laolaxipanpian" initials="llxpp" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>劳拉西泮片              用法：口服，一次1片（1mg），晚睡前服用，待睡眠稳定超过4周后逐渐减量至停药</Text>
+      </Drug>
+      <Drug id="d376" order="376" sourceParagraph="376" name="氯硝西泮片" pinyin="lvxiaoxipanpian" initials="lxxpp" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>氯硝西泮片         用法：口服， 一次半片（0.5mg）   1次/晚     根据睡眠情况服用，睡眠好转停用</Text>
+      </Drug>
+      <Drug id="d377" order="377" sourceParagraph="377" name="盐酸达利雷生片" pinyin="yansuandalileishengpian" initials="ysdllsp" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>盐酸达利雷生片     用法：口服,一次一片（50mg），晚睡前1小时服用，服药前4小时避免进食，需连续服用不可随意增减药物。</Text>
+      </Drug>
+      <Drug id="d378" order="378" sourceParagraph="378" name="盐酸度洛西汀肠溶胶囊" pinyin="yansuanduluoxitingchangrongjiaonang" initials="ysdlxtcrjn" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>盐酸度洛西汀肠溶胶囊 用法：口服，一次1片（30mg），每日1次，固定于某一顿饭后，每5天加量30mg，直至90-120mg维持，维持6个月</Text>
+      </Drug>
+      <Drug id="d379" order="379" sourceParagraph="379" name="归脾合剂" pinyin="guipiheji" initials="gphj" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>归脾合剂           用法：口服，一次1支（10ml），3次/日。</Text>
+      </Drug>
+      <Drug id="d380" order="380" sourceParagraph="380" name="维生素B6（辅助用药说明）" pinyin="weishengsub6（fuzhuyongyaoshuoming）" initials="wssb6（fzyysm）" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>给予维生素B6 10mg tid预防消化道不良反应；</Text>
+        <Warning>原文为辅助用药说明，未明确关联范围，作为独立条目保留。</Warning>
+      </Drug>
+      <Drug id="d381" order="381" sourceParagraph="381" name="阿普唑仑片" pinyin="apuzuolunpian" initials="apzlp" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>阿普唑仑片           用法：口服，一次1片（0.4mg），睡前1次，1月左右逐渐减量至停药</Text>
+      </Drug>
+      <Note sourceParagraph="382">保持心情舒畅，规律睡眠，1月后心理精神科/我科门诊随诊以调整用药。</Note>
+      <Drug id="d383" order="383" sourceParagraph="383" name="度洛西汀（治疗量记录）" pinyin="duluoxiting（zhiliaoliangjilu）" initials="dlxt（zlljl）" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>度洛西汀，80-90mg/日  治疗量</Text>
+        <Warning>原文仅记录治疗量，完整用法需核对。</Warning>
+      </Drug>
+      <Drug id="d384" order="384" sourceParagraph="384" name="文拉法辛" pinyin="wenlafaxin" initials="wlfx" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>文拉法辛：副作用：多汗，升血压（15mmHg）</Text>
+        <Warning>原文仅记录副作用，缺少用法。</Warning>
+      </Drug>
+      <Drug id="d385" order="385" sourceParagraph="385" name="专注达（盐酸哌甲酯缓释片）" pinyin="zhuanzhuda（yansuanpaijiazhihuanshipian）" initials="zzd（yspjzhsp）" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>专注达（盐酸哌甲酯缓释片）适用于注意力缺陷／多动障碍 (ADHD)，6岁及以上的儿科患者:从每天两次5毫克开始(早餐和午餐前)，每周滴定5 - 10毫克。不建议超过60mg /天。</Text>
+      </Drug>
+      <Drug id="d386" order="386" sourceParagraph="386" name="伏硫西汀" pinyin="fuliuxiting" initials="flxt" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>伏硫西汀：激活正性情绪，副作用：恶心，</Text>
+        <Warning>原文仅记录作用及副作用，缺少用法。</Warning>
+      </Drug>
+      <Drug id="d387" order="387" sourceParagraph="387" name="奥氮平片" pinyin="aodanpingpian" initials="adpp" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>奥氮平片   用法：口服，一次1片（5mg），每日1次，晚睡前。</Text>
+      </Drug>
+      <Drug id="d388" order="388" sourceParagraph="388" name="奥氮平（欧兰亭）" pinyin="aodanping（oulanting）" initials="adp（olt）" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>奥氮平（欧兰亭，规格5/10mg）：用于双相I型障碍，急性混合性或躁狂发作，联合氟西汀治疗以抑郁发作为主的双相I型情感障碍，用法：2.5mg-5mg起始使用，QN，最大剂量20mg，副作用：体重增加，血脂升高，泌乳素升高，肝酶升高。</Text>
+      </Drug>
+      <Drug id="d389" order="389" sourceParagraph="389" name="利血平" pinyin="lixueping" initials="lxp" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>利血平：引起抑郁</Text>
+        <Warning>原文仅记录作用/不良反应，缺少用法。</Warning>
+      </Drug>
+      <Drug id="d390" order="390" sourceParagraph="390" name="可乐定" pinyin="keleding" initials="kld" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>可乐定：治疗抽动症</Text>
+        <Warning>原文仅记录作用，缺少用法。</Warning>
+      </Drug>
+      <Drug id="d391" order="391" sourceParagraph="391" name="安非他酮" pinyin="anfeitatong" initials="aftt" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>安非他酮：戒烟，戒赌，提高正性情绪，</Text>
+        <Warning>原文仅记录作用，缺少用法。</Warning>
+      </Drug>
+      <Drug id="d392" order="392" sourceParagraph="392" name="阿立哌唑" pinyin="alipaizuo" initials="alpz" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>阿立哌唑：降低泌乳素，对抗不良反应（5-10mg）</Text>
+        <Warning>原文未给出完整频次及用法。</Warning>
+      </Drug>
+      <Drug id="d393" order="393" sourceParagraph="393" name="三环类抗抑郁药" pinyin="sanhuanleikangyiyuyao" initials="shlkyyy" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>三环类抗抑郁药：阿米替林，25mg（夜尿增多，12.5mg/夜）</Text>
+      </Drug>
+      <Drug id="d394" order="394" sourceParagraph="394" name="氟西汀" pinyin="fuxiting" initials="fxt" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>氟西汀：治疗贪食</Text>
+        <Warning>原文仅记录作用，缺少用法。</Warning>
+      </Drug>
+      <Drug id="d395" order="395" sourceParagraph="395" name="喹硫平（青少年首选）双向首选喹硫平" pinyin="kuiliuping（qingshaonianshouxuan）shuangxiangshouxuankuiliuping" initials="klp（qsnsx）sxsxklp" section="抗抑郁药物：如SSRIs类、SNRIs类">
+        <Text>喹硫平（青少年首选）双向首选喹硫平，用法：50 mg起始，400-600mg目标剂量。</Text>
+      </Drug>
+      <Section sourceParagraph="396">常见中药：</Section>
+      <Drug id="d397" order="397" sourceParagraph="397" name="解郁除烦胶囊" pinyin="jieyuchufanjiaonang" initials="jycfjn" section="常见中药">
+        <Text>解郁除烦胶囊</Text>
+        <Warning>原文只有药名，缺少用法。</Warning>
+      </Drug>
+      <Drug id="d398" order="398" sourceParagraph="398" name="解郁丸" pinyin="jieyuwan" initials="jyw" section="常见中药">
+        <Text>解郁丸</Text>
+        <Warning>原文只有药名，缺少用法。</Warning>
+      </Drug>
+      <Drug id="d399" order="399" sourceParagraph="399" name="乌灵胶囊" pinyin="wulingjiaonang" initials="wljn" section="常见中药">
+        <Text>乌灵胶囊   用法：口服，一次3粒（0.99g），每日3次</Text>
+      </Drug>
+      <Drug id="d400" order="400" sourceParagraph="400" name="百乐眠胶囊" pinyin="bailemianjiaonang" initials="blmjn" section="常见中药">
+        <Text>百乐眠胶囊</Text>
+        <Warning>原文只有药名，缺少用法。</Warning>
+      </Drug>
+      <Drug id="d401" order="401" sourceParagraph="401" name="枣仁安神液" pinyin="zaorenanshenye" initials="zrasy" section="常见中药">
+        <Text>枣仁安神液             用法：口服，一次10ml，睡前1次。</Text>
+      </Drug>
+      <Drug id="d402" order="402" sourceParagraph="402" name="心神宁片" pinyin="xinshenningpian" initials="xsnp" section="常见中药">
+        <Text>心神宁片                   用法：口服，一次4片（1g），每日3次。</Text>
+      </Drug>
+    </Category>
+    <Category id="c403" order="30" sourceParagraph="403" title="精神心理科常用药物">
+      <Drug id="d404" order="404" sourceParagraph="404" name="抗精神病药物" pinyin="kangjingshenbingyaowu" initials="kjsbyw" section="">
+        <Text>抗精神病药物：如奥氮平、利培酮、阿立哌唑、帕利哌酮、鲁拉西酮等</Text>
+        <Warning>原文为药物分类概述，未提供各药物用法。</Warning>
+      </Drug>
+      <Drug id="d405" order="405" sourceParagraph="405" name="抗抑郁药物" pinyin="kangyiyuyaowu" initials="kyyyw" section="">
+        <Text>抗抑郁药物：如SSRIs类、SNRIs类</Text>
+        <Warning>原文为药物分类概述，未提供各药物用法。</Warning>
+      </Drug>
+      <Drug id="d406" order="406" sourceParagraph="406" name="抗焦虑（镇静催眠类）药物" pinyin="kangjiaolv（zhenjingcuimianlei）yaowu" initials="kjl（zjcml）yw" section="">
+        <Text>抗焦虑（镇静催眠类）药物：如劳拉西泮、阿普唑仑等</Text>
+        <Warning>原文为药物分类概述，未提供各药物用法。</Warning>
+      </Drug>
+      <Drug id="d407" order="407" sourceParagraph="407" name="心境稳定剂" pinyin="xinjingwendingji" initials="xjwdj" section="">
+        <Text>心境稳定剂：碳酸锂、丙戊酸盐等</Text>
+        <Warning>原文为药物分类概述，未提供各药物用法。</Warning>
+      </Drug>
+    </Category>
+    <Category id="c408" order="31" sourceParagraph="408" title="降肺动脉高压药物">
+      <Drug id="d409" order="409" sourceParagraph="409" name="安立生坦片" pinyin="anlishengtanpian" initials="alstp" section="">
+        <Text>安立生坦片              用法：口服，一次1片（5mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d410" order="410" sourceParagraph="410" name="枸橼酸西地那非片" pinyin="juyuansuanxidinafeipian" initials="jysxdnfp" section="">
+        <Text>枸橼酸西地那非片        用法：口服，一次1片（25mg），每日1次。</Text>
+      </Drug>
+      <Note sourceParagraph="411">注：定期心外科随诊。</Note>
+    </Category>
+    <Category id="c412" order="32" sourceParagraph="412" title="前列腺增生药物">
+      <Drug id="d413" order="413" sourceParagraph="413" name="非那雄胺片" pinyin="feinaxionganpian" initials="fnxap" section="">
+        <Text>非那雄胺片   用法：口服，一次1片（5mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d414" order="414" sourceParagraph="414" name="盐酸坦索罗辛缓释胶囊" pinyin="yansuantansuoluoxinhuanshijiaonang" initials="ystslxhsjn" section="">
+        <Text>盐酸坦索罗辛缓释胶囊  用法：口服，一次1粒（0.2mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d415" order="415" sourceParagraph="415" name="甲磺酸多沙唑嗪缓释片" pinyin="jiahuangsuanduoshazuoqinhuanshipian" initials="jhsdszqhsp" section="">
+        <Text>甲磺酸多沙唑嗪缓释片 用法：口服，一次1片（10mg），每日1次。</Text>
+      </Drug>
+      <Drug id="d416" order="416" sourceParagraph="416" name="米拉贝隆缓释片" pinyin="milabeilonghuanshipian" initials="mlblhsp" section="">
+        <Text>米拉贝隆缓释片  用法：口服，一次1片（50mg），晚睡前每日1次，至少需服用3月</Text>
+      </Drug>
+      <Note sourceParagraph="417">注：动态复查泌尿系彩超+残余尿检查，如有不适，及时泌尿外科就诊。</Note>
+    </Category>
+    <Category id="c418" order="33" sourceParagraph="418" title="慢性乙肝用药">
+      <Drug id="d419" order="419" sourceParagraph="419" name="恩替卡韦" pinyin="entikawei" initials="etkw" section="">
+        <Text>恩替卡韦      用法：口服，一次1片（0.5mg），每日1次，晨空腹。</Text>
+      </Drug>
+      <Note sourceParagraph="420">注：切勿自行停用药物；1月后感染科门诊复诊，动态监测血常规、肝功能、乙肝五项定量、高敏乙型肝炎病毒脱氧核糖核酸定量检测（感染科）、肝脏肿瘤标志物、上腹部影像学检查等评估病情。</Note>
+    </Category>
+    <Category id="c421" order="34" sourceParagraph="421" title="皮炎用药">
+      <Drug id="d422" order="422" sourceParagraph="422" name="复方酮康唑乳膏" pinyin="fufangtongkangzuorugao" initials="fftkzrg" section="">
+        <Text>复方酮康唑乳膏   用法：外用，2次/日。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d423" order="423" sourceParagraph="423" name="青鹏软膏" pinyin="qingpengruangao" initials="qprg" section="">
+        <Text>青鹏软膏         用法：外用，2次/日。</Text>
+      </Drug>
+      <Note sourceParagraph="424">注：皮肤科门诊随诊。</Note>
+    </Category>
+    <Category id="c425" order="35" sourceParagraph="425" title="改善视物模糊用药">
+      <Drug id="d426" order="426" sourceParagraph="426" name="牛碱性成纤维细胞生长因子滴眼液(贝复舒)" pinyin="niujianxingchengxianweixibaoshengzhangyinzidiyanye(beifushu)" initials="njxcxwxbszyzdyy(bfs)" section="">
+        <Text>牛碱性成纤维细胞生长因子滴眼液(贝复舒)   用法:滴眼,每日4次。</Text>
+      </Drug>
+      <Drug id="d427" order="427" sourceParagraph="427" name="七叶洋地黄双苷滴眼液(施图伦)" pinyin="qiyeyangdihuangshuanggandiyanye(shitulun)" initials="qyydhsgdyy(stl)" section="">
+        <Text>七叶洋地黄双苷滴眼液(施图伦)             用法:滴眼,每日4次。</Text>
+      </Drug>
+      <Note sourceParagraph="428">注：避免长时间用眼、长时间使用电子产品，症状改善后，可停用。</Note>
+    </Category>
+    <Category id="c429" order="36" sourceParagraph="429" title="促进血肿吸收药物">
+      <Drug id="d430" order="430" sourceParagraph="430" name="脑血疏口服液" pinyin="naoxueshukoufuye" initials="nxskfy" section="">
+        <Text>脑血疏口服液        用法：口服，一次1支（10ml），每日3次。</Text>
+      </Drug>
+      <Drug id="d431" order="431" sourceParagraph="431" name="醋酸地塞米松片" pinyin="cusuandisaimisongpian" initials="csdsmsp" section="">
+        <Text>醋酸地塞米松片      用法：晨起口服，一次3片（2.25mg），每日1次，每隔1周减1片，4周后停药。</Text>
+      </Drug>
+      <Note sourceParagraph="432">注：2周后复查头颅CT，若血肿吸收完全可停药，神经外科门诊随诊。</Note>
+    </Category>
+    <Category id="c433" order="37" sourceParagraph="433" title="降尿酸用药">
+      <Drug id="d434" order="434" sourceParagraph="434" name="苯溴马隆片" pinyin="benxiumalongpian" initials="bxmlp" section="">
+        <Text>苯溴马隆片 用法：口服，一次1片（50mg），每日1次。</Text>
+      </Drug>
+      <Note sourceParagraph="435">注：低嘌呤饮食，鼓励食用：蔬菜，鸡蛋，低脂、脱脂奶及其制品，限制食用：牛、羊、猪肉、富含嘌呤的海鲜，调味糖、甜点、调味盐（酱油和调味汁），葡萄酒、果酒；避免使用：含果糖饮料，动物内脏，白酒、啤酒、黄酒，1月后复查尿酸，根据复查结果调整用药。</Note>
+    </Category>
+    <Category id="c436" order="38" sourceParagraph="436" title="针对神经性皮炎">
+      <Drug id="d437" order="437" sourceParagraph="437" name="百多邦乳膏" pinyin="baiduobangrugao" initials="bdbrg" section="">
+        <Text>百多邦乳膏          用法：破溃处外用，每日2次</Text>
+      </Drug>
+      <Drug id="d438" order="438" sourceParagraph="438" name="复方酮康唑乳膏" pinyin="fufangtongkangzuorugao" initials="fftkzrg" section="">
+        <Text>复方酮康唑乳膏      用法：外用，每日2次</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d439" order="439" sourceParagraph="439" name="复方樟脑乳膏" pinyin="fufangzhangnaorugao" initials="ffznrg" section="">
+        <Text>复方樟脑乳膏        用法:如有瘙痒，可局部外用，每日2次</Text>
+      </Drug>
+      <Note sourceParagraph="440">注：避免接触洗涤剂、肥皂、香皂等化学制剂，避免过热水烫洗皮肤，建议使用保湿乳液改善症状。</Note>
+    </Category>
+    <Category id="c441" order="39" sourceParagraph="441" title="类风湿关节炎药物">
+      <Drug id="d442" order="442" sourceParagraph="442" name="碳酸钙D3片" pinyin="tansuangaid3pian" initials="tsgd3p" section="">
+        <Text>碳酸钙D3片          用法：饭后口服，一次1片（600mg），每日1次。</Text>
+        <Warning>药库中存在同名条目，请核对分类、规格、频次和用法。</Warning>
+      </Drug>
+      <Drug id="d443" order="443" sourceParagraph="443" name="醋氯芬酸片" pinyin="culvfensuanpian" initials="clfsp" section="">
+        <Text>醋氯芬酸片          用法：口服，一次1片（0.1g），每日1次。</Text>
+      </Drug>
+      <Drug id="d444" order="444" sourceParagraph="444" name="柳氮磺吡啶肠溶片" pinyin="liudanhuangbidingchangrongpian" initials="ldhbdcrp" section="">
+        <Text>柳氮磺吡啶肠溶片    用法：口服，一次1片（0.5g），每日2次。</Text>
+      </Drug>
+      <Drug id="d445" order="445" sourceParagraph="445" name="阿尔法骨化醇片" pinyin="aerfaguhuachunpian" initials="aefghcp" section="">
+        <Text>阿尔法骨化醇片      用法：口服，一次1片（0.5μg），每日1次。</Text>
+      </Drug>
+      <Drug id="d446" order="446" sourceParagraph="446" name="雷公藤多苷片" pinyin="leigongtengduoganpian" initials="lgtdgp" section="">
+        <Text>雷公藤多苷片        用法：口服，一次2片（20mg），每日3次。</Text>
+      </Drug>
+    </Category>
+  </Categories>
+</Library>

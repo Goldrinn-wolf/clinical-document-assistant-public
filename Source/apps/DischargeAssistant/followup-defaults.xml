@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FollowupDefaults source="Android discharge-assistant-1.0.0">
+  <Template name="模板二" origin="参考图片">复诊可预约某某医院某门诊，由某某主任接诊，具体出诊时间请以医院公布的信息为准。</Template>
+  <Template name="模板一" origin="Word 原文">复诊请提前通过某某医院官方渠道预约某门诊，某某主任的出诊时间以医院公布的信息为准。</Template>
+</FollowupDefaults>

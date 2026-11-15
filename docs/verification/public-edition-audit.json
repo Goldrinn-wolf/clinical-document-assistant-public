@@ -1,0 +1,11 @@
+{
+  "public_version": "v1.4.1-public",
+  "source_files_checked": 101,
+  "distribution_and_nested_files_checked": 49,
+  "original_identifiers_remaining": 0,
+  "framework_installer_unmodified": true,
+  "dependency_launcher_ready": true,
+  "core_checks_passed": 172,
+  "template_switch_ui_verified": true,
+  "private_originals_modified": false
+}

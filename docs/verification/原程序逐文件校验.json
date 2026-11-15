@@ -1,0 +1,107 @@
+[
+  {
+    "path": "ClinicalSuite.exe",
+    "sha256": "41100312ba7ab2c5d43fe698f0fd610e0f0752bb5af318fca83d34dbcbbcee38",
+    "original_manifest_match": true
+  },
+  {
+    "path": "ClinicalSuite.exe.config",
+    "sha256": "a1368a56854ac3cdcec33749b0e556ce656ce7bc855bebc726132fd155e85b62",
+    "original_manifest_match": true
+  },
+  {
+    "path": "OfflineLab.dll",
+    "sha256": "fcd4c4e40902ba6493e850a6831f1a6eb321b3b6abc6b64497a4918f0e6330c0",
+    "original_manifest_match": true
+  },
+  {
+    "path": "使用说明.txt",
+    "sha256": "b29fb7132e15b905cf7bd966b18a3c8f7888411e1d07890990a7261299b16536",
+    "original_manifest_match": true
+  },
+  {
+    "path": "测试与兼容性.md",
+    "sha256": "01459c8d895f7e99acf532612d893400a70291e97b645fa27b50f5cfe7c0fe7d",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/DischargeAssistant/DischargeAssistant.exe",
+    "sha256": "068d04415a145b0d8a66b10ed9b08254817e8e7da9c92752efa74069a7ac4c7d",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/DischargeAssistant/DischargeAssistant.exe.config",
+    "sha256": "a1368a56854ac3cdcec33749b0e556ce656ce7bc855bebc726132fd155e85b62",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/ExaminationAssistant/ExaminationAssistant.exe",
+    "sha256": "882471ef1dd606ff6d61453135b0a8a509d845a8b8e58339315bfea42e610354",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/ExaminationAssistant/ExaminationAssistant.exe.config",
+    "sha256": "a1368a56854ac3cdcec33749b0e556ce656ce7bc855bebc726132fd155e85b62",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/ExaminationAssistant/OfflineLab.dll",
+    "sha256": "fcd4c4e40902ba6493e850a6831f1a6eb321b3b6abc6b64497a4918f0e6330c0",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/ExaminationAssistant/pypinyin_LICENSE.txt",
+    "sha256": "1e6c90014b4912815c296ee64bb6f6280af47e6d4c5d80e86232dfc5defe764c",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/FirstCourseAssistant/FirstCourseAssistant.exe",
+    "sha256": "72ef3e99959fb9c29a8cb908b9f73a2332bf2b6b9a2a011ceafb7cdde200dd53",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/FirstCourseAssistant/FirstCourseAssistant.exe.config",
+    "sha256": "a1368a56854ac3cdcec33749b0e556ce656ce7bc855bebc726132fd155e85b62",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/FirstCourseAssistant/pypinyin_LICENSE.txt",
+    "sha256": "1e6c90014b4912815c296ee64bb6f6280af47e6d4c5d80e86232dfc5defe764c",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/InstructionsAssistant/InstructionsAssistant.exe",
+    "sha256": "9d6b7b34bb218cd7b2486d65095361be48008c0e6875552ee9d91a8346047e5b",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/InstructionsAssistant/InstructionsAssistant.exe.config",
+    "sha256": "a1368a56854ac3cdcec33749b0e556ce656ce7bc855bebc726132fd155e85b62",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/InstructionsAssistant/pypinyin_LICENSE.txt",
+    "sha256": "1e6c90014b4912815c296ee64bb6f6280af47e6d4c5d80e86232dfc5defe764c",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/ProgressNotesAssistant/OfflineLab.dll",
+    "sha256": "fcd4c4e40902ba6493e850a6831f1a6eb321b3b6abc6b64497a4918f0e6330c0",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/ProgressNotesAssistant/ProgressNotesAssistant.exe",
+    "sha256": "492ac6dfc86dafb93497078fc46810bd9b333a90434b0ca77e5ccd13077c904c",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/ProgressNotesAssistant/ProgressNotesAssistant.exe.config",
+    "sha256": "a1368a56854ac3cdcec33749b0e556ce656ce7bc855bebc726132fd155e85b62",
+    "original_manifest_match": true
+  },
+  {
+    "path": "apps/ProgressNotesAssistant/pypinyin_LICENSE.txt",
+    "sha256": "1e6c90014b4912815c296ee64bb6f6280af47e6d4c5d80e86232dfc5defe764c",
+    "original_manifest_match": true
+  }
+]

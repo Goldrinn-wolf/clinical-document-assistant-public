@@ -1,0 +1,37 @@
+# Generated programs and downloaded redistributables
+*.exe
+*.dll
+*.pdb
+*.zip
+*.cab
+*.nupkg
+**/bin/
+**/obj/
+**/.vs/
+**/__pycache__/
+*.pyc
+.DS_Store
+# User records and local runtime profiles
+**/Profile/
+**/EBWebView/
+**/User Data/
+**/Local Storage/
+**/IndexedDB/
+*.log
+*.dmp
+*.db
+.env
+.env.*
+*.pem
+*.key
+Portable/
+Setup/
+Source/payload.xml
+Source/payload.zip
+Source/examination-payload.xml
+Source/examination-payload.zip
+release-output/
+environment/dependencies/
+
+# Generated executable configuration copies
+*.exe.config

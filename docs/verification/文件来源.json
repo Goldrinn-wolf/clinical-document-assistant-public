@@ -1,0 +1,7 @@
+{
+  "installer_sha256": "2538f32331c2d737b6e6c1a74897eddaa67a2c60b04c706c22646c2ce17033cc",
+  "framework_sha256": "0a3a390c47e639d0f7fc65b21195fee6b7f65b066f80f70c60fab191d14b7e40",
+  "framework_download": "https://dotnet.microsoft.com/download/dotnet-framework/net48",
+  "framework_signature": "Microsoft Corporation; Valid",
+  "payload_files_verified": 21
+}

@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Library>
+  <Entry id="word-140" step="1" order="0" title="脑血管病" pinyin="naoxueguanbing" initials="nxgb" origin="Word原文" sourceParagraphs="140">
+    <Text>脑血管病：注意休息，适当运动，维持情绪及睡眠稳定，低盐低脂糖尿病、优质蛋白饮食，增加膳食纤维摄入，多食新鲜蔬菜，多饮水，戒烟酒，减体重，监测血压、血糖、心率并记录，避免血压过低及过高，避免大汗及呕吐及腹泻等血容量不足情况，避免过度劳累、熬夜、情绪激动、受凉、感冒等情况。防跌倒、防摔伤，严格留陪护，适当锻炼、认知功能康复。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-141" step="1" order="1" title="癫痫" pinyin="dianxian" initials="dx" origin="Word原文" sourceParagraphs="141">
+    <Text>癫痫：注意休息，适当运动，维持情绪及睡眠稳定，低盐低脂、优质蛋白饮食，增加膳食纤维摄入，多食新鲜蔬菜，多饮水，严格戒烟酒，监测血压、心率并记录，避免血压过低及过高，避免大汗及呕吐及腹泻等血容量不足情况，避免过度劳累、情绪激动、受凉、感冒等情况，同时避免熬夜、避免长时间看手机，避免独自登高、开车，避免前往危险场所等，避免咖啡、可乐、辛辣刺激性饮料及食物，避免服用含有咖啡因、麻黄碱的药物。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-142" step="1" order="2" title="晕厥" pinyin="yunjue" initials="yj" origin="Word原文" sourceParagraphs="142">
+    <Text>晕厥：注意休息，适当运动，蹲起、翻身、转头等体位变化时注意动作缓慢，避免过快、过猛改变体位，优质蛋白饮食，增加膳食纤维摄入，多食新鲜蔬菜，保证足量饮水，日饮水量2L左右，每日摄入6-10g盐，维持情绪及睡眠稳定，推荐头高位睡眠，避免长时间暴露于如淋浴等过热环境下，监测血压并记录，避免血压过低及过高，避免大汗及呕吐及腹泻等血容量不足情况，避免过度劳累、熬夜、情绪激动、受凉、感冒等情况，防跌倒、防摔伤。</Text>
+    <Source />
+    <Warning>原模板含饮水量及盐摄入建议，需结合患者情况核对。</Warning>
+  </Entry>
+  <Entry id="word-143" step="1" order="3" title="带状疱疹" pinyin="daizhuangpaozhen" initials="dzpz" origin="Word原文" sourceParagraphs="143">
+    <Text>带状疱疹：注意休息，适当运动，维持情绪及睡眠稳定，避免过度劳累、熬夜、情绪激动、受凉、感冒等情况，低盐低脂、优质蛋白饮食，增加膳食纤维摄入，多食新鲜蔬菜，多饮水，注意保持结痂部位清洁，避免感染，严禁搔抓，避免接触孕妇、老人，保持足够的睡眠、休息及营养，眼周勿热敷，若出现视力下降、复视、口角歪斜、眼球运动障碍等症状时即刻就医。继续当前止痛、局部外用药膏等治疗。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-144" step="1" order="4" title="震颤" pinyin="zhenchan" initials="zc" origin="Word原文" sourceParagraphs="144">
+    <Text>震颤：规律作息，清淡饮食，避免过饱、低血糖，避免疲劳、熬夜、焦虑等，减少咖啡、尼古丁、浓茶、能量饮料等摄入，做精细运动时（写字、吃饭、持物）尽量手臂支撑在桌面上，不要过度关注抖动症状，可行适度锻炼：散步、太极、瑜伽，避免剧烈、过度疲劳的运动。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-145" step="1" order="5" title="周围神经病" pinyin="zhouweishenjingbing" initials="zwsjb" origin="Word原文" sourceParagraphs="145">
+    <Text>周围神经病：避免长时间屈腕，如玩手机、打字等；伏案工作时手腕平放桌面，不翘腕、不压腕；少做拧毛巾、提重物、反复抓握、用力屈伸、拧瓶盖、开门把手等动作，少拖地、洗衣、揉面、织毛衣；避免受凉、吹冷风、碰凉水；避免长时间鼠标办公，每30分钟停下活动手腕，</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-146" step="1" order="6" title="体位性低血压" pinyin="tiweixingdixueya" initials="twxdxy" origin="Word原文" sourceParagraphs="146">
+    <Text>体位性低血压： 注意休息，适当运动，蹲起、翻身、转头等体位变化时注意动作缓慢，避免过快、过猛改变体位，避免长时间站立，可交叉双腿站立、穿弹力袜、使用腹带、弹力裤；维持充足水分摄入，避免酒摄入酒精，优质蛋白饮食，增加膳食纤维摄入，多食新鲜蔬菜，保证足量饮水，日饮水量2L左右，适当增加盐摄入；维持情绪及睡眠稳定，推荐头高位睡眠，床头抬高10°-30°；康复科行康复功能锻炼改善体位耐受，如斜床站立逐步增加角度，下肢气压助动、踏车、等长收缩训练；避免长时间暴露于如淋浴等过热环境下，监测血压并记录，避免血压过低及过高，避免大汗及呕吐及腹泻等血容量不足情况，避免过度劳累、熬夜、情绪激动、受凉、感冒等情况，防跌倒、防摔伤。</Text>
+    <Source />
+    <Warning>原模板含饮水量及盐摄入建议，需结合患者情况核对。</Warning>
+  </Entry>
+  <Entry id="word-147" step="1" order="7" title="面瘫" pinyin="miantan" initials="mt" origin="Word原文" sourceParagraphs="147">
+    <Text>面瘫：积极主动行面部肌肉康复功能锻炼，适当皱眉、闭眼、鼓腮，吹气，活动面部表情肌，保护角膜，出院后康复科进一步就诊，必要时行针灸、理疗等治疗，必要时进一步完善听力检查、耳镜检查并动态复查听力。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-148" step="1" order="8" title="线粒体脑肌病" pinyin="xianlitinaojibing" initials="xltnjb" origin="Word原文" sourceParagraphs="148">
+    <Text>线粒体脑肌病：保持能量代谢的均衡和连续，避免饥饿及精神刺激、过度劳累、熬夜、感染。消化障碍或者腹泻或感冒时，及时静脉补充能量；保证睡眠，增加蛋白摄入，非饥饿状态下行轻到中度有氧运动，必要时可尝试生酮饮食。避免导致乳酸酸中毒的药物如双胍类及利奈唑胺。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-149" step="1" order="9" title="急性应激障碍" pinyin="jixingyingjizhangai" initials="jxyjza" origin="Word原文" sourceParagraphs="149">
+    <Text>急性应激障碍：观察是否有出现拒绝与他人沟通交流、自伤行为、伤害别人的想法，分不清现实、意识恍惚、连续不吃不喝，头晕症状越来越重等表现，或出现嗜睡、头晕，行走不稳，皮疹，心慌等症状，如有上述症状出现，立即于精神心理科或精神专科医院就诊。出院1月后精神心理科门诊或精神专科医院复诊，复查肝肾功、血常规、心肌酶，根据结果调整用药。如有不适，及时就诊。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-150" step="1" order="10" title="多发性硬化" pinyin="duofaxingyinghua" initials="dfxyh" origin="Word原文" sourceParagraphs="150">
+    <Text>多发性硬化：1.规律休息，适当运动，避免长跑、高强度健身，维持情绪及睡眠稳定，均衡饮食、优质蛋白饮食，多食新鲜蔬菜，多饮水，增加膳食纤维摄入，绝对避免过度劳累、熬夜、高强度运动、长期压力大，预防感冒、咽炎、肠炎、泌尿系统感染，季节更替注意保暖、通风，严格避免高温暴晒、高温汗蒸、长时间热水泡澡。出院2周后我科某某主任门诊随诊，1月后复查血常规、免疫指标、肝肾功、HCY，调整用药，每6-12月完善颅脑＋颈椎MR明确给病灶情况，出院后1月、3月、半年、1年后神经内科定期复诊，以后神经内科门诊随诊。</Text>
+    <Source />
+    <Warning>原文含“多发性硬化：1.”内部编号和专病复诊安排，输出保留原文，请核对。</Warning>
+  </Entry>
+  <Entry id="default-medication" step="2" order="11" title="按服药单服药" pinyin="anfuyaodanfuyao" initials="afydfy" origin="用户指定" sourceParagraphs="">
+    <Text>按服药单服药。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-151" step="3" order="12" title="神经内科复诊安排" pinyin="shenjingneikefuzhenanpai" initials="sjnkfzap" origin="Word原文" sourceParagraphs="151">
+    <Text>出院1月后神经内科门诊复诊，复查肝肾功、血脂、血糖、血常规、心肌酶、同型半胱氨酸，根据结果调整用药，3月、半年、1年后神经内科定期复诊，以后神经内科门诊随诊。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-152" step="4" order="13" title="右下肢股动脉穿刺后注意事项" pinyin="youxiazhigudongmaichuancihouzhuyishixiang" initials="yxzgdmcchzysx" origin="Word原文" sourceParagraphs="152">
+    <Text>出院后观察右下肢穿刺点情况，7天内避免剧烈活动，如有肿块、硬结及时就诊。</Text>
+    <Source />
+    <Warning>适用于模板中的右下肢穿刺；侧别不同时可添加自定义条目。</Warning>
+  </Entry>
+  <Entry id="word-153" step="5" order="14" title="高血压" pinyin="gaoxueya" initials="gxy" origin="Word原文" sourceParagraphs="153">
+    <Text>针对高血压，严格服药，规律监测血压并记录，维持血压在120-140/70-90mmHg之间，血压不宜控制过低，如血压控制不佳或波动过大，心内科门诊随诊调整降压方案。</Text>
+    <Source />
+    <Warning>原模板含血压、心率或血糖目标，需核对是否适合当前患者。</Warning>
+  </Entry>
+  <Entry id="word-154" step="5" order="15" title="高血压、冠心病、房颤等联合随访" pinyin="gaoxueya、guanxinbing、fangchandenglianhesuifang" initials="gxy、gxb、fcdlhsf" origin="Word原文" sourceParagraphs="154">
+    <Text>针对高血压、冠心病、阵发性房颤，动脉瓣少量反流、心包积液，监测血压心率，维持血压在120-140/70-90mmHg之间，心率控制在60次/分左右，血压不宜控制过低，动态复查心电图、心脏彩超、心肌酶等，如有血压心率控制不佳、血压心率波动过大、胸闷、气短、心悸、胸痛等不适，心内科进一步就诊。</Text>
+    <Source />
+    <Warning>原模板含血压、心率或血糖目标，需核对是否适合当前患者。</Warning>
+  </Entry>
+  <Entry id="word-155" step="5" order="16" title="糖尿病" pinyin="tangniaobing" initials="tnb" origin="Word原文" sourceParagraphs="155">
+    <Text>针对糖尿病，监测血糖（空腹，三餐后2小时，晚睡前），每周至少完整监测1-2天血糖，每3个月复查糖化血红蛋白，血糖控制目标：空腹7~8mmol/L，餐后8~10mmol/L，避免低血糖，内分泌科门诊随诊；</Text>
+    <Source />
+    <Warning>原模板含血压、心率或血糖目标，需核对是否适合当前患者。</Warning>
+  </Entry>
+  <Entry id="word-156" step="5" order="17" title="颈腰椎退行性病变" pinyin="jingyaochuituixingxingbingbian" initials="jyctxxbb" origin="Word原文" sourceParagraphs="156">
+    <Text>针对颈腰椎退行性病变，注意保护颈腰椎，避免长期低头、负重，避免久坐久站，避免搬运重物，保护颈腰椎，定期复查脊椎MRI，骨科门诊随诊；</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-157" step="5" order="18" title="肺部结节、间质性改变等" pinyin="feibujiejie、jianzhixinggaibiandeng" initials="fbjj、jzxgbd" origin="Word原文" sourceParagraphs="157">
+    <Text>针对肺部结节、间质性改变、肺大泡、慢性炎症，3-6个月后复查胸部CT肿瘤标志物，如有呼吸困难、气短、咯血等不适，呼吸内科门诊随诊。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-158" step="5" order="19" title="结甲" pinyin="jiejia" initials="jj" origin="Word原文" sourceParagraphs="158">
+    <Text>针对结甲，1-2月后复查甲功，半年后复查甲状腺彩超，必要时进一步调整优甲乐用量，内分泌科门诊随诊；</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-159" step="5" order="20" title="原发性甲状腺功能减退症(亚临床)" pinyin="yuanfaxingjiazhuangxiangongnengjiantuizheng(yalinchuang)" initials="yfxjzxgnjtz(ylc)" origin="Word原文" sourceParagraphs="159">
+    <Text>针对原发性甲状腺功能减退症(亚临床)，关注有无出现乏力、纳差、便秘等症状，动态复查甲功，必要时于内分泌科就诊；</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-160" step="5" order="21" title="动脉瘤" pinyin="dongmailiu" initials="dml" origin="Word原文" sourceParagraphs="160">
+    <Text>针对动脉瘤，动态观察，控制血压、避免情绪激动及剧烈运动及大便干燥，半年后复查DSA，神经外科随诊；</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-161" step="5" order="22" title="高同型半胱氨酸血症" pinyin="gaotongxingbanguangansuanxuezheng" initials="gtxbgasxz" origin="Word原文" sourceParagraphs="161">
+    <Text>针对高同型半胱氨酸血症，多进食绿色蔬菜、优质动物蛋白、奶制品等，控制动物内脏、红肉、加工肉类等蛋氨酸摄入，1月后复查HCY；</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-162" step="5" order="23" title="2次便潜血阳性" pinyin="2cibianqianxueyangxing" initials="2cbqxyx" origin="Word原文" sourceParagraphs="162">
+    <Text>针对2次便潜血阳性，嘱严格素食5天（不食肉类、动物内脏、深色蔬菜）后再次复查粪常规，若仍隐血阳性，消化科进一步就诊；</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-163" step="5" order="24" title="泌尿系感染" pinyin="miniaoxiganran" initials="mnxgr" origin="Word原文" sourceParagraphs="163">
+    <Text>针对泌尿系感染，联用3天，若尿路刺激症状可改善后继续用至1周，多饮水，增加尿量，注意外阴会诊，动态复查尿常规、尿培养，泌尿外科就诊调整用药。</Text>
+    <Source />
+    <Warning>原文“联用3天”未明确药物，且“注意外阴会诊”疑为录入错误，使用前需核对或编辑。</Warning>
+  </Entry>
+  <Entry id="word-164" step="5" order="25" title="睡眠障碍" pinyin="shuimianzhangai" initials="smza" origin="Word原文" sourceParagraphs="164">
+    <Text>针对睡眠障碍，注意保持心情舒畅，睡前避免剧烈活动及使用电子产品，如无改善，心理精神科/神经内科门诊随诊。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-165" step="5" order="26" title="情绪不佳" pinyin="qingxubujia" initials="qxbj" origin="Word原文" sourceParagraphs="165">
+    <Text>针对情绪不佳，调整生活方式，必要时于心理精神科就诊；如有不适，及时就诊。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-166" step="5" order="27" title="肾上腺肿物" pinyin="shenshangxianzhongwu" initials="ssxzw" origin="Word原文" sourceParagraphs="166">
+    <Text>定期复查肾上腺CT，泌尿外科就诊/针对肾上腺肿物，进一步行肾上腺增强CT明确病变性质，泌尿外科门诊随诊;</Text>
+    <Source />
+    <Warning>原文包含“/”连接的两种表述，未擅自选择其一。</Warning>
+  </Entry>
+  <Entry id="word-167" step="5" order="28" title="鼻窦炎" pinyin="bidouyan" initials="bdy" origin="Word原文" sourceParagraphs="167">
+    <Text>针对鼻窦炎，若有不适，则至耳鼻喉科门诊就诊；</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-168" step="5" order="29" title="乳房结节" pinyin="rufangjiejie" initials="rfjj" origin="Word原文" sourceParagraphs="168">
+    <Text>针对乳房结节，完善乳腺彩超等检查，乳腺外科进一步就诊；如有不适，及时就诊。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-169" step="5" order="30" title="前列腺增生伴钙化" pinyin="qianliexianzengshengbangaihua" initials="qlxzsbgh" origin="Word原文" sourceParagraphs="169">
+    <Text>针对前列腺增生伴钙化，嘱定期复查，泌尿外科随诊；</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-170" step="5" order="31" title="慢性乙肝相关复查" pinyin="manxingyiganxiangguanfucha" initials="mxygxgfc" origin="Word原文" sourceParagraphs="170">
+    <Text>定期复查肝功、乙肝标志物定量、乙肝病毒DNA定量、上腹部超声，感染科门诊随诊；</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-171" step="5" order="32" title="风湿免疫指标复查" pinyin="fengshimianyizhibiaofucha" initials="fsmyzbfc" origin="Word原文" sourceParagraphs="171">
+    <Text>每年复查自身抗体、抗核抗体滴度、ANCA系列，如有异常，风湿科门诊随诊；</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-172" step="5" order="33" title="消化系统复查" pinyin="xiaohuaxitongfucha" initials="xhxtfc" origin="Word原文" sourceParagraphs="172">
+    <Text>定期复查粪常规、肿瘤标志物、上腹部彩超，必要时行胃肠镜检查，消化内科门诊随诊；</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-173" step="5" order="34" title="继续保肝治疗" pinyin="jixubaoganzhiliao" initials="jxbgzl" origin="Word原文" sourceParagraphs="173">
+    <Text>继续口服保肝药，1周后复查肝功能，消化内科门诊随诊；</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-174" step="5" order="35" title="下肢动脉粥样硬化" pinyin="xiazhidongmaizhouyangyinghua" initials="xzdmzyyh" origin="Word原文" sourceParagraphs="174">
+    <Text>针对下肢动脉粥样硬化，避免长时间久坐，定期复查双下肢动脉彩超，如麻木、皮肤苍白、皮温低、足背动脉脉搏减弱、活动后疼痛等症状加重，血管外科进一步就诊。如有不适，及时就诊。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-175" step="5" order="36" title="一般复查提醒" pinyin="yibanfuchatixing" initials="ybfctx" origin="Word原文" sourceParagraphs="175">
+    <Text>定期复查，如有不适，及时就诊。</Text>
+    <Source />
+    <Warning />
+  </Entry>
+  <Entry id="word-176-177" step="5" order="37" title="下肢肌间静脉血栓" pinyin="xiazhijijianjingmaixueshuan" initials="xzjjjmxs" origin="Word模板化" sourceParagraphs="176,177">
+    <Text>针对患者下肢肌间静脉血栓，[待填写：VTE评分及风险等级]，嘱患者床上进行踝泵运动，每次10~15分钟，每日3~4次（早，中，晚，睡前），抬高双下肢，适当多饮水：每日约2000ml，预防下肢静脉血栓形成，</Text>
+    <Source />
+    <Warning>已将示例中的VTE评分6分、高危改为待填写字段，输出前必须填写并核对饮水量、活动要求。</Warning>
+  </Entry>
+  <Entry id="supplement-1" step="5" order="38" title="便秘" pinyin="bianmi" initials="bm" origin="网络补充草稿" sourceParagraphs="">
+    <Text>针对便秘，逐步增加膳食纤维摄入，适当活动，规律排便，不憋便；若便秘持续、出现便血、腹痛或不明原因体重下降，及时就诊。</Text>
+    <Source>https://www.nhs.uk/conditions/constipation/</Source>
+    <Warning>按公开患者教育资料整理，需结合病情核对。</Warning>
+  </Entry>
+  <Entry id="supplement-2" step="5" order="39" title="胃食管反流" pinyin="weishiguanfanliu" initials="wsgfl" origin="网络补充草稿" sourceParagraphs="">
+    <Text>针对胃食管反流，少量多餐，避免诱发症状的食物和饮料，睡前3-4小时避免进食，戒烟，超重者控制体重；若症状持续或出现吞咽困难、反复呕吐、不明原因体重下降，及时就诊。</Text>
+    <Source>https://www.nhs.uk/conditions/heartburn-and-acid-reflux/</Source>
+    <Warning>按公开患者教育资料整理，需结合病情核对。</Warning>
+  </Entry>
+  <Entry id="supplement-3" step="5" order="40" title="骨关节炎" pinyin="guguanjieyan" initials="ggjy" origin="网络补充草稿" sourceParagraphs="">
+    <Text>针对骨关节炎，在医生或康复治疗师指导下进行适合自身情况的活动及肌力训练，超重者控制体重，使用合适的鞋具，按处方用药；关节疼痛持续或活动受限时及时就诊。</Text>
+    <Source>https://www.nhs.uk/conditions/osteoarthritis/
+https://www.nhs.uk/conditions/osteoarthritis/treatment/</Source>
+    <Warning>按公开患者教育资料整理，需结合病情核对。</Warning>
+  </Entry>
+  <Entry id="supplement-4" step="5" order="41" title="慢性阻塞性肺疾病" pinyin="manxingzusaixingfeijibing" initials="mxzsxfjb" origin="网络补充草稿" sourceParagraphs="">
+    <Text>针对慢性阻塞性肺疾病，戒烟，避免烟雾、粉尘等刺激，按医嘱使用吸入药物，根据自身能力适当活动，必要时在专业指导下进行肺康复；症状突然加重或出现新的不适时及时就诊。</Text>
+    <Source>https://www.nhs.uk/conditions/chronic-obstructive-pulmonary-disease-copd/living-with/</Source>
+    <Warning>按公开患者教育资料整理，需结合病情核对。</Warning>
+  </Entry>
+  <Entry id="supplement-5" step="5" order="42" title="阻塞性睡眠呼吸暂停" pinyin="zusaixingshuimianhuxizanting" initials="zsxsmhxzt" origin="网络补充草稿" sourceParagraphs="">
+    <Text>针对阻塞性睡眠呼吸暂停，保持规律睡眠，超重者控制体重，戒烟，避免过量饮酒，避免未经医生建议使用安眠药；已处方持续气道正压通气者按医嘱坚持使用，使用不适时及时联系诊疗团队。</Text>
+    <Source>https://www.nhs.uk/conditions/sleep-apnoea/</Source>
+    <Warning>按公开患者教育资料整理，需结合病情核对。</Warning>
+  </Entry>
+</Library>
